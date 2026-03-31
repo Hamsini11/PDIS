@@ -94,9 +94,9 @@ def run_compliance_scan(pdf_path):
     
     # Extract dates per page
     result = run_extraction(page_texts, Path(pdf_path).name, full_text)
-
-    index_document(page_texts, result, Path(pdf_path).name)
-    
+    print(f"  Sections: {[s['section_type'] for s in result['sections']]}")
+    print(f"  Packet summary: {result['packet_summary'][:150]}...")
+    index_document(page_texts, result["dates"], Path(pdf_path).name)    
     return result
     
 

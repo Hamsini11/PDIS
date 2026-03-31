@@ -53,16 +53,21 @@ with st.sidebar:
         else:
             st.success("No flagged dates!")
 
-# ─── QUERY ROUTER ────────────────────────────────────────────
-STRUCTURED_KEYWORDS = [
-    "date", "when", "expir", "effect", "issu", "sign",
-    "approv", "submit", "publish", "flagged", "ambiguous",
-    "how many dates", "list all dates", "latest date", "earliest"
-]
-
 def is_structured_query(query: str) -> bool:
     q = query.lower()
-    return any(k in q for k in STRUCTURED_KEYWORDS)
+    
+    # ONLY route to structured if explicitly asking about dates/metadata
+    # Be very specific — avoid broad matches
+    structured_patterns = [
+        "what date", "which date", "when was", "when did",
+        "what is the date", "expiry date", "expiration date",
+        "effective date", "latest date", "earliest date",
+        "how many dates", "list all dates", "list dates",
+        "show me dates", "flagged dates", "show flagged",
+        "ambiguous dates"
+    ]
+    
+    return any(pattern in q for pattern in structured_patterns)
 
 def handle_structured(query: str, filter_doc: str = None) -> str:
     """Answer date-specific questions directly from index."""
@@ -157,6 +162,7 @@ if query := st.chat_input("Ask anything about your documents..."):
             if is_structured_query(query):
                 route = "📋 Structured (date index)"
                 answer = handle_structured(query, filter_doc)
+                print(f"DEBUG: is_structured={is_structured_query(query)}, query={query}")
             else:
                 route = "🔍 Semantic (RAG)"
                 answer = handle_semantic(query, selected_doc)

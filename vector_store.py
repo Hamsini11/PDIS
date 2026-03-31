@@ -4,7 +4,6 @@ import faiss
 import numpy as np
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
-from extractor import DocumentMetadata
 
 # ─── CONFIG ──────────────────────────────────────────────────
 EMBED_MODEL = "all-MiniLM-L6-v2"   # fast, good quality, already in your venv
@@ -56,9 +55,7 @@ def _chunk_page(page_text: str, page_num: int, doc_name: str,
     return chunks
 
 # ─── PUBLIC API ───────────────────────────────────────────────
-def index_document(page_texts: list[tuple[int, str]],
-                   metadata: DocumentMetadata,
-                   filename: str):
+def index_document(page_texts, dates: list, filename):
     """
     Embed and store all page chunks + structured date metadata.
     Call this after run_extraction() in main.py.
@@ -79,26 +76,26 @@ def index_document(page_texts: list[tuple[int, str]],
         new_chunks.extend(page_chunks)
 
     # 2. also index each date as its own searchable chunk
-    for d in metadata.dates:
+    for d in dates:
         date_text = (
-            f"Date found: {d.raw}. "
-            f"Normalized: {d.normalized or 'N/A'}. "
-            f"Context: {d.context}. "
-            f"Page: {d.page}. "
+            f"Date found: {d["raw"]}. "
+            f"Normalized: {d["normalized"] or 'N/A'}. "
+            f"Context: {d["context"]}. "
+            f"Page: {d["page"]}. "
             f"Document: {filename}."
         )
         new_chunks.append({
             "text":      date_text,
             "doc":       filename,
-            "page":      d.page,
+            "page":      d["page"],
             "chunk_idx": "date",
-            "id":        f"{filename}::date::{d.raw}::{d.page}",
+            "id":        f"{filename}::date::{d["raw"]}::{d["page"]}",
             "is_date":   True,
-            "raw_date":  d.raw,
-            "normalized": d.normalized,
-            "confidence": d.confidence,
-            "ambiguous":  d.ambiguous,
-            "flagged":    d.confidence < 0.7 or d.ambiguous
+            "raw_date":  d["raw"],
+            "normalized": d["normalized"],
+            "confidence": d["confidence"],
+            "ambiguous":  d["ambiguous"],
+            "flagged":    d["confidence"] < 0.7 or d["ambiguous"]
         })
 
     if not new_chunks:
@@ -117,7 +114,7 @@ def index_document(page_texts: list[tuple[int, str]],
     _save(index, chunks)
 
     print(f"  ✅ Indexed {len(new_chunks)} chunks "
-          f"({len(metadata.dates)} date entries) for {filename}")
+          f"({len(dates)} date entries) for {filename}")
 
 
 def search(query: str, top_k: int = 5,
