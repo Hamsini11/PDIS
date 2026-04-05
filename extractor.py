@@ -126,7 +126,7 @@ Page text:
         try:
             async with semaphore:
                 response = await async_client.messages.create(
-                    model=SONNET,
+                    model=HAIKU,
                     max_tokens=1024,
                     system=EXTRACTION_SYSTEM,
                     tools=[DATE_EXTRACTION_TOOL],

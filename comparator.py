@@ -169,7 +169,7 @@ Generate a comprehensive diff table covering:
 Flag any changes that could indicate compliance risk."""
 
     response = await async_client.messages.create(
-        model=SONNET,
+        model=HAIKU,
         max_tokens=2000,
         tools=[COMPARISON_TOOL],
         tool_choice={"type": "tool", "name": "compare_documents"},

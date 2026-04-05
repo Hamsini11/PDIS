@@ -187,7 +187,7 @@ USER QUESTION: {query}
 Answer concisely and accurately. Cite page numbers and document names."""
 
     response = client.messages.create(
-        model="claude-sonnet-4-5",
+        model="claude-haiku-4-5-20251001", #"claude-sonnet-4-5"
         max_tokens=1000,
         messages=[{"role": "user", "content": prompt}]
     )
@@ -218,7 +218,7 @@ CONTEXT:
 USER QUESTION: {query}"""
 
     response = client.messages.create(
-        model="claude-sonnet-4-5",
+        model="claude-haiku-4-5-20251001", #"claude-sonnet-4-5"
         max_tokens=1500,
         messages=[{"role": "user", "content": prompt}]
     )

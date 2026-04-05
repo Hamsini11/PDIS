@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 
 from extractor import run_extraction
 from vector_store import index_document
+from validator import validate_dates, format_validation_report
 
 load_dotenv()
 
@@ -96,7 +97,13 @@ def run_compliance_scan(pdf_path):
     result = run_extraction(page_texts, Path(pdf_path).name, full_text)
     print(f"  Sections: {[s['section_type'] for s in result['sections']]}")
     print(f"  Packet summary: {result['packet_summary'][:150]}...")
-    index_document(page_texts, result["dates"], Path(pdf_path).name)    
+    index_document(page_texts, result["dates"], Path(pdf_path).name)
+    validation = validate_dates(result["dates"])
+    print(f"\n  Validation: {validation['critical_count']} critical, "
+        f"{validation['warning_count']} warnings")
+    if validation["critical"]:
+        for f in validation["critical"]:
+            print(f"  🔴 {f['message']} (Page {f['page']})") 
     return result
     
 
