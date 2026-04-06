@@ -146,7 +146,7 @@ def validate_dates(dates: list[dict]) -> dict:
     for d in dates:
         raw        = d.get("raw_date") or d.get("raw", "")
         normalized = d.get("normalized")
-        context    = d.get("context", "")
+        context    = d.get("context") or d.get("text", "")
         page       = d.get("page", "?")
 
         # add page context to each flag
@@ -169,6 +169,13 @@ def validate_dates(dates: list[dict]) -> dict:
             "lot expir", "exp date", "exp:"
         ]
 
+        is_expiry_context = any(kw in context.lower() for kw in EXPIRY_KEYWORDS)
+        try:
+            is_past_date = normalized and datetime.fromisoformat(normalized).date() < TODAY
+        except ValueError:
+            is_past_date = False
+
+        # Flag expired dates even without explicit expiry keyword
         if any(kw in context.lower() for kw in EXPIRY_KEYWORDS):
             flag = with_context(check_expired(normalized, raw))
             if flag:

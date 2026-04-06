@@ -3,6 +3,7 @@ from pathlib import Path
 from anthropic import Anthropic
 from vector_store import search, get_all_dates, list_documents
 from main import run_compliance_scan, extract_text_from_pdf
+from router import is_structured_query
 
 client = Anthropic()
 
@@ -142,22 +143,6 @@ else:
         # ── Display results in main area ──────────────────
         st.session_state["comparison_result"] = result
 
-def is_structured_query(query: str) -> bool:
-    q = query.lower()
-    
-    # ONLY route to structured if explicitly asking about dates/metadata
-    # Be very specific — avoid broad matches
-    structured_patterns = [
-        "what date", "which date", "when was", "when did",
-        "what is the date", "expiry date", "expiration date",
-        "effective date", "latest date", "earliest date",
-        "how many dates", "list all dates", "list dates",
-        "show me dates", "flagged dates", "show flagged",
-        "ambiguous dates"
-    ]
-    
-    return any(pattern in q for pattern in structured_patterns)
-
 def handle_structured(query: str, filter_doc: str = None) -> str:
     """Answer date-specific questions directly from index."""
     dates = get_all_dates(filter_doc=filter_doc)
@@ -251,7 +236,6 @@ if query := st.chat_input("Ask anything about your documents..."):
             if is_structured_query(query):
                 route = "📋 Structured (date index)"
                 answer = handle_structured(query, filter_doc)
-                print(f"DEBUG: is_structured={is_structured_query(query)}, query={query}")
             else:
                 route = "🔍 Semantic (RAG)"
                 answer = handle_semantic(query, selected_doc)

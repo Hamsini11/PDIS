@@ -1,0 +1,162 @@
+{
+  "55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf": [
+    {
+      "section_type": "Regulatory Filing",
+      "start_page": 1,
+      "end_page": 9,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "Guidance Document",
+      "start_page": 1,
+      "end_page": 9,
+      "confidence": 0.92
+    }
+  ],
+  "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf": [
+    {
+      "section_type": "Regulatory Filing",
+      "start_page": 1,
+      "end_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "Version Update Notice",
+      "start_page": 1,
+      "end_page": 1,
+      "confidence": 0.9
+    },
+    {
+      "section_type": "Regulatory Filing",
+      "start_page": 2,
+      "end_page": 7,
+      "confidence": 0.92
+    }
+  ],
+  "DSCSA Pilot Project - Final Report.pdf": [
+    {
+      "section_type": "Regulatory Filing",
+      "start_page": 1,
+      "end_page": 53,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "Test Report",
+      "start_page": 5,
+      "end_page": 32,
+      "confidence": 0.9
+    },
+    {
+      "section_type": "Audit Report",
+      "start_page": 16,
+      "end_page": 18,
+      "confidence": 0.85
+    }
+  ],
+  "importation-guidance.pdf": [
+    {
+      "section_type": "Regulatory Filing",
+      "start_page": 1,
+      "end_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "Guidance Document",
+      "start_page": 1,
+      "end_page": 18,
+      "confidence": 0.92
+    },
+    {
+      "section_type": "Dear Healthcare Provider Letter",
+      "start_page": 10,
+      "end_page": 18,
+      "confidence": 0.88
+    }
+  ],
+  "OPQ_FY23RSPQ_20250821.pdf": [
+    {
+      "section_type": "Regulatory Filing",
+      "start_page": 1,
+      "end_page": 24,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "Quality Report",
+      "start_page": 1,
+      "end_page": 24,
+      "confidence": 0.92
+    },
+    {
+      "section_type": "Audit Report",
+      "start_page": 1,
+      "end_page": 24,
+      "confidence": 0.85
+    }
+  ],
+  "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf": [
+    {
+      "section_type": "Regulatory Filing",
+      "start_page": 1,
+      "end_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "Regulatory Guidance",
+      "start_page": 2,
+      "end_page": 9,
+      "confidence": 0.9
+    },
+    {
+      "section_type": "References",
+      "start_page": 10,
+      "end_page": 12,
+      "confidence": 0.85
+    }
+  ],
+  "sample-sdf-document.pdf": [
+    {
+      "section_type": "Version Update Notice",
+      "start_page": 1,
+      "end_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "Certificate of Compliance",
+      "start_page": 1,
+      "end_page": 1,
+      "confidence": 0.98
+    },
+    {
+      "section_type": "Test Report",
+      "start_page": 2,
+      "end_page": 2,
+      "confidence": 0.97
+    },
+    {
+      "section_type": "Certificate of Compliance",
+      "start_page": 3,
+      "end_page": 3,
+      "confidence": 0.98
+    }
+  ],
+  "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf": [
+    {
+      "section_type": "Audit Report",
+      "start_page": 1,
+      "end_page": 11,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "Regulatory Filing",
+      "start_page": 1,
+      "end_page": 11,
+      "confidence": 0.92
+    },
+    {
+      "section_type": "Test Report",
+      "start_page": 1,
+      "end_page": 11,
+      "confidence": 0.85
+    }
+  ]
+}

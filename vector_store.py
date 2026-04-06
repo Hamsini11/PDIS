@@ -55,7 +55,7 @@ def _chunk_page(page_text: str, page_num: int, doc_name: str,
     return chunks
 
 # ─── PUBLIC API ───────────────────────────────────────────────
-def index_document(page_texts, dates: list, filename):
+def index_document(page_texts, dates: list, filename, sections: list = None):
     """
     Embed and store all page chunks + structured date metadata.
     Call this after run_extraction() in main.py.
@@ -112,6 +112,16 @@ def index_document(page_texts, dates: list, filename):
     index.add(vectors)
     chunks.extend(new_chunks)
     _save(index, chunks)
+
+    sections_file = STORE_DIR / "sections.json"
+    existing = {}
+    if sections_file.exists():
+        try:
+            existing = json.loads(sections_file.read_text())
+        except Exception:
+            existing = {}
+    existing[filename] = sections
+    sections_file.write_text(json.dumps(existing, indent=2))
 
     print(f"  ✅ Indexed {len(new_chunks)} chunks "
           f"({len(dates)} date entries) for {filename}")
