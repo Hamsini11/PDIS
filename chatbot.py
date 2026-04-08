@@ -54,7 +54,7 @@ if "token" not in st.session_state or not st.session_state.token:
     st.write("Sign in with your Microsoft account to continue.")
     result = oauth2.authorize_button(
         name="Sign in with Microsoft",
-        redirect_uri="http://localhost:8502",
+        redirect_uri="https://pdis-pfizer.streamlit.app",
         scope="openid email profile User.Read",
         icon="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
     )
