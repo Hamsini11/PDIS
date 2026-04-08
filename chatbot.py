@@ -4,20 +4,99 @@ from anthropic import Anthropic
 from vector_store import search, get_all_dates, list_documents
 from main import run_compliance_scan, extract_text_from_pdf
 from router import is_structured_query
+from supabase_client import sign_in_with_microsoft, supabase, new_session_id, save_message, load_chat_history, get_or_create_user
+import os
+from streamlit_oauth import OAuth2Component
+import json
+import base64
+from supabase import create_client, Client, ClientOptions
+
+url  = os.environ.get("SUPABASE_URL")
+key  = os.environ.get("SUPABASE_ANON_KEY")
+
+supabase: Client = create_client(
+    url, key,
+    options=ClientOptions(postgrest_client_timeout=10)
+)
+
+def decode_id_token(token: str) -> dict:
+    """Decode JWT id_token without verification."""
+    payload = token.split(".")[1]
+    # add padding
+    payload += "=" * (4 - len(payload) % 4)
+    decoded = base64.b64decode(payload)
+    return json.loads(decoded)
 
 client = Anthropic()
 
-# ─── PAGE CONFIG ─────────────────────────────────────────────
+# ─── PAGE CONFIG ─────────────────────────────
 st.set_page_config(
     page_title="PDIS — Pfizer Document Intelligence",
     page_icon="💊",
     layout="wide"
 )
 
+# ─── AUTH ────────────────────────────────────────────────────
+AZURE_CLIENT_ID     = os.environ.get("AZURE_CLIENT_ID")
+AZURE_CLIENT_SECRET = os.environ.get("AZURE_CLIENT_SECRET")
+
+oauth2 = OAuth2Component(
+    client_id=AZURE_CLIENT_ID,
+    client_secret=AZURE_CLIENT_SECRET,
+    authorize_endpoint="https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
+    token_endpoint="https://login.microsoftonline.com/common/oauth2/v2.0/token",
+    refresh_token_endpoint="https://login.microsoftonline.com/common/oauth2/v2.0/token",
+    revoke_token_endpoint="https://login.microsoftonline.com/common/oauth2/v2.0/logout"
+)
+
+if "token" not in st.session_state or not st.session_state.token:
+    st.title("🔐 PDIS Login")
+    st.write("Sign in with your Microsoft account to continue.")
+    result = oauth2.authorize_button(
+        name="Sign in with Microsoft",
+        redirect_uri="http://localhost:8502",
+        scope="openid email profile User.Read",
+        icon="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+    )
+    if result and "token" in result:
+        st.session_state.token = result["token"]
+        st.rerun()
+    st.stop()
+
+#title
+st.title("💊 PDIS")
+st.caption("Pharmaceutical Document Intelligence System")
+
 # ─── SIDEBAR ─────────────────────────────────────────────────
 with st.sidebar:
+
     st.title("💊 PDIS")
-    st.caption("Pharmaceutical Document Intelligence System")
+    st.divider()
+    # User info + logout
+    st.subheader("👤 Profile")
+    id_token = st.session_state.token.get("id_token", "")
+    user_info = decode_id_token(id_token) if id_token else {}
+    user_email = user_info.get("email") or user_info.get("preferred_username", "User")
+    # ─── USER SESSION ─────────────────────────────────────────────
+    if "user_id" not in st.session_state:
+        user = get_or_create_user(
+            ms_user_id=user_info.get("oid", ""),
+            email=user_info.get("email", ""),
+            display_name=user_info.get("name", "")
+        )
+        st.session_state.user_id = user["id"]
+        st.session_state.session_id = new_session_id()
+        st.session_state.messages = load_chat_history(
+            st.session_state.user_id,
+            st.session_state.session_id
+        )
+    display_name = user_info.get("name") or \
+               f"{user_info.get('given_name', '')} {user_info.get('family_name', '')}".strip() or \
+               user_info.get("email", "User")
+    st.caption(f"🌐 {user_email}")
+    if st.button("Sign out"):
+        del st.session_state["token"]
+        st.rerun()
     st.divider()
 
     st.subheader("📂 Upload Document")
@@ -224,6 +303,9 @@ for msg in st.session_state.messages:
 
 # chat input
 if query := st.chat_input("Ask anything about your documents..."):
+    save_message(st.session_state.user_id,
+                 st.session_state.session_id,
+                 "user", query)
     st.session_state.messages.append({"role": "user", "content": query})
     with st.chat_message("user"):
         st.markdown(query)
@@ -243,6 +325,9 @@ if query := st.chat_input("Ask anything about your documents..."):
         st.markdown(f"*Query type: {route}*")
         st.markdown(answer)
 
+    save_message(st.session_state.user_id,
+             st.session_state.session_id,
+             "assistant", answer)
     st.session_state.messages.append({"role": "assistant", "content": answer})
 
     # Show comparison result if available
