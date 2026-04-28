@@ -91,28 +91,28 @@
     "id": "55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf::p9::c1"
   },
   {
-    "text": "Date found: September 2023. Normalized: 2023-09-01. Context: Office of Regulatory Affairs (ORA)\n\nSeptember 2023. Page: 1. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
+    "text": "Date found: September 2023. Normalized: 2023-09. Context: Office of Regulatory Affairs (ORA)\n\nSeptember 2023\nAdministrative/Procedural. Page: 1. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
     "doc": "55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf",
     "page": 1,
     "chunk_idx": "date",
     "id": "55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf::date::September 2023::1",
     "is_date": true,
     "raw_date": "September 2023",
-    "normalized": "2023-09-01",
-    "confidence": 0.9,
+    "normalized": "2023-09",
+    "confidence": 0.85,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: September 2023. Normalized: 2023-09-01. Context: Office of Regulatory Affairs (ORA)\n\nSeptember 2023\nAdministrative/Procedural. Page: 2. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
+    "text": "Date found: September 2023. Normalized: 2023-09. Context: September 2023 Administrative/Procedural. Page: 2. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
     "doc": "55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf",
     "page": 2,
     "chunk_idx": "date",
     "id": "55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf::date::September 2023::2",
     "is_date": true,
     "raw_date": "September 2023",
-    "normalized": "2023-09-01",
-    "confidence": 0.9,
+    "normalized": "2023-09",
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -143,7 +143,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: July 2022. Normalized: 2022-07. Context: revised draft guidance to reflect the enhanced drug distribution security requirements in section 582(g)(1) of the FD&C Act that will go into effect on November 27, 2023,5 including that only electronic methods of product tracing will be permitted and verification of product at the package level will be required, unless a waiver, exception, or exemption applies.. Page: 5. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
+    "text": "Date found: July 2022. Normalized: 2022-07. Context: finalizes the policies articulated in the July 2022 revised draft guidance. Page: 5. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
     "doc": "55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf",
     "page": 5,
     "chunk_idx": "date",
@@ -156,7 +156,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: November 27, 2023. Normalized: 2023-11-27. Context: will go into effect on November 27, 2023,5 including that only electronic methods of product tracing will be permitted. Page: 5. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
+    "text": "Date found: November 27, 2023. Normalized: 2023-11-27. Context: will go into effect on November 27, 2023,5 including that only electronic. Page: 5. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
     "doc": "55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf",
     "page": 5,
     "chunk_idx": "date",
@@ -169,7 +169,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: November 27, 2023. Normalized: 2023-11-27. Context: These requirements for enhanced drug distribution security go into effect on November 27, 2023. Section 582(g)(1) of the FD&C Act sets forth enhanced drug distribution. Page: 5. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
+    "text": "Date found: November 27, 2023. Normalized: 2023-11-27. Context: security go into effect on November 27, 2023. Section 582(g)(1) of the. Page: 5. Document: 55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf.",
     "doc": "55034275fnl-DSCSA Standards Interoperable Exchange of Info.pdf",
     "page": 5,
     "chunk_idx": "date",
@@ -272,19 +272,6 @@
     "id": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf::p7::c1"
   },
   {
-    "text": "Date found: 60 days. Normalized: N/A. Context: should be submitted within 60 days of publication in the. Page: 1. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
-    "doc": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf",
-    "page": 1,
-    "chunk_idx": "date",
-    "id": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf::date::60 days::1",
-    "is_date": true,
-    "raw_date": "60 days",
-    "normalized": null,
-    "confidence": 0.9,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
     "text": "Date found: July 2022. Normalized: 2022-07-01. Context: Office of Regulatory Affairs (ORA) July 2022 Procedural. Page: 1. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
     "doc": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf",
     "page": 1,
@@ -298,20 +285,33 @@
     "flagged": false
   },
   {
-    "text": "Date found: July 2022. Normalized: 2022-07. Context: Office of Regulatory Affairs (ORA) July 2022 Procedural. Page: 2. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
+    "text": "Date found: 60 days. Normalized: N/A. Context: should be submitted within 60 days of publication in the. Page: 1. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
+    "doc": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf",
+    "page": 1,
+    "chunk_idx": "date",
+    "id": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf::date::60 days::1",
+    "is_date": true,
+    "raw_date": "60 days",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: July 2022. Normalized: 2022-07-01. Context: Center for Biologics Evaluation and Research (CBER) Office of Regulatory Affairs (ORA) July 2022. Page: 2. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
     "doc": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf",
     "page": 2,
     "chunk_idx": "date",
     "id": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf::date::July 2022::2",
     "is_date": true,
     "raw_date": "July 2022",
-    "normalized": "2022-07",
-    "confidence": 0.95,
+    "normalized": "2022-07-01",
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: NOVEMBER 23, 2023. Normalized: 2023-11-23. Context: UNDER SECTION 582(G)(1) BEGINNING ON NOVEMBER 23, 2023?. Page: 3. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
+    "text": "Date found: NOVEMBER 23, 2023. Normalized: 2023-11-23. Context: SECTION 582(G)(1) BEGINNING ON NOVEMBER 23, 2023. Page: 3. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
     "doc": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf",
     "page": 3,
     "chunk_idx": "date",
@@ -324,7 +324,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: November 2014. Normalized: 2014-11. Context: in the November 2014 draft guidance DSCSA Standards. Page: 5. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
+    "text": "Date found: November 2014. Normalized: 2014-11. Context: in the November 2014 draft guidance DSCSA Standards for. Page: 5. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
     "doc": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf",
     "page": 5,
     "chunk_idx": "date",
@@ -337,7 +337,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: November 27, 2023. Normalized: 2023-11-27. Context: transition to exclusively utilize electronic-based approaches to satisfy the enhanced drug distribution security requirements by November 27, 2023, FDA believes. Page: 7. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
+    "text": "Date found: November 27, 2023. Normalized: 2023-11-27. Context: transition to exclusively utilize electronic-based approaches by November 27, 2023, FDA believes. Page: 7. Document: DrugSupplyChainSecurityActStandards-DraftGuidance.pdf.",
     "doc": "DrugSupplyChainSecurityActStandards-DraftGuidance.pdf",
     "page": 7,
     "chunk_idx": "date",
@@ -785,7 +785,7 @@
     "is_date": true,
     "raw_date": "May 2023",
     "normalized": "2023-05",
-    "confidence": 0.9,
+    "confidence": 0.95,
     "ambiguous": false,
     "flagged": false
   },
@@ -803,7 +803,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: May 8\u20139, 2019. Normalized: 2019-05-08. Context: FDA held design strategy meetings on May 8\u20139, 2019, with each participant. Page: 7. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: May 8\u20139, 2019. Normalized: 2019-05-08. Context: FDA held design strategy meetings on May 8\u20139, 2019, with. Page: 7. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 7,
     "chunk_idx": "date",
@@ -811,6 +811,19 @@
     "is_date": true,
     "raw_date": "May 8\u20139, 2019",
     "normalized": "2019-05-08",
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: May 8\u20139, 2019. Normalized: 2019-05-09. Context: FDA held design strategy meetings on May 8\u20139, 2019, with. Page: 7. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "doc": "DSCSA Pilot Project - Final Report.pdf",
+    "page": 7,
+    "chunk_idx": "date",
+    "id": "DSCSA Pilot Project - Final Report.pdf::date::May 8\u20139, 2019::7",
+    "is_date": true,
+    "raw_date": "May 8\u20139, 2019",
+    "normalized": "2019-05-09",
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
@@ -829,7 +842,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 90 days. Normalized: N/A. Context: reopened the comment period for an additional 90 days. Page: 8. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 90 days. Normalized: N/A. Context: reopened the comment period for an additional 90 days.. Page: 8. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 8,
     "chunk_idx": "date",
@@ -842,7 +855,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: November 2023. Normalized: 2023-11-01. Context: requirements that go into effect in November 2023. Page: 8. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: November 2023. Normalized: 2023-11-01. Context: requirements that go into effect in November 2023.. Page: 8. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 8,
     "chunk_idx": "date",
@@ -868,7 +881,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 2023. Normalized: N/A. Context: relating to the 2023 DSCSA requirements by utilizing and. Page: 10. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2023. Normalized: N/A. Context: relating to the 2023 DSCSA requirements by utilizing. Page: 10. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 10,
     "chunk_idx": "date",
@@ -881,7 +894,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: November 27, 2023. Normalized: 2023-11-27. Context: requirements that go into effect on November 27, 2023. Page: 14. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: November 27, 2023. Normalized: 2023-11-27. Context: go into effect on November 27, 2023.15  These. Page: 14. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 14,
     "chunk_idx": "date",
@@ -894,20 +907,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 23. Normalized: N/A. Context: FDA DSCSA Pilot Project Program \u2014 Final Program Report 23 Table 9.. Page: 24. Document: DSCSA Pilot Project - Final Report.pdf.",
-    "doc": "DSCSA Pilot Project - Final Report.pdf",
-    "page": 24,
-    "chunk_idx": "date",
-    "id": "DSCSA Pilot Project - Final Report.pdf::date::23::24",
-    "is_date": true,
-    "raw_date": "23",
-    "normalized": null,
-    "confidence": 0.1,
-    "ambiguous": false,
-    "flagged": true
-  },
-  {
-    "text": "Date found: 84 FR 2879. Normalized: N/A. Context: 21 See 84 FR 2879.. Page: 25. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 84 FR 2879. Normalized: N/A. Context: See 84 FR 2879.. Page: 25. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 25,
     "chunk_idx": "date",
@@ -915,12 +915,12 @@
     "is_date": true,
     "raw_date": "84 FR 2879",
     "normalized": null,
-    "confidence": 0.3,
+    "confidence": 0.6,
     "ambiguous": false,
     "flagged": true
   },
   {
-    "text": "Date found: 2023. Normalized: N/A. Context: interoperable exchange of Transactional Information (TI), and Transactional Statement (TS) and evaluating the significant operational impact in a 2023 environment. Page: 27. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2023. Normalized: N/A. Context: evaluating the significant operational impact in a 2023 environment. The POC. Page: 27. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 27,
     "chunk_idx": "date",
@@ -933,7 +933,33 @@
     "flagged": false
   },
   {
-    "text": "Date found: 6 months. Normalized: N/A. Context: Duration of Pilot Activities: 6 months. Page: 27. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2023. Normalized: N/A. Context: successful 2023 implementation. The project involved the major trading. Page: 27. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "doc": "DSCSA Pilot Project - Final Report.pdf",
+    "page": 27,
+    "chunk_idx": "date",
+    "id": "DSCSA Pilot Project - Final Report.pdf::date::2023::27",
+    "is_date": true,
+    "raw_date": "2023",
+    "normalized": null,
+    "confidence": 0.7,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 2023. Normalized: N/A. Context: disruptions with implementing 2023 requirements. The pilot project sought. Page: 27. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "doc": "DSCSA Pilot Project - Final Report.pdf",
+    "page": 27,
+    "chunk_idx": "date",
+    "id": "DSCSA Pilot Project - Final Report.pdf::date::2023::27",
+    "is_date": true,
+    "raw_date": "2023",
+    "normalized": null,
+    "confidence": 0.7,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 6 months. Normalized: N/A. Context: Duration of Pilot Activities: 6 months Description. Page: 27. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 27,
     "chunk_idx": "date",
@@ -942,32 +968,6 @@
     "raw_date": "6 months",
     "normalized": null,
     "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: 2023. Normalized: N/A. Context: successful 2023 implementation. The project involved the major. Page: 27. Document: DSCSA Pilot Project - Final Report.pdf.",
-    "doc": "DSCSA Pilot Project - Final Report.pdf",
-    "page": 27,
-    "chunk_idx": "date",
-    "id": "DSCSA Pilot Project - Final Report.pdf::date::2023::27",
-    "is_date": true,
-    "raw_date": "2023",
-    "normalized": null,
-    "confidence": 0.7,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: 2023. Normalized: N/A. Context: disruptions with implementing 2023 requirements.. Page: 27. Document: DSCSA Pilot Project - Final Report.pdf.",
-    "doc": "DSCSA Pilot Project - Final Report.pdf",
-    "page": 27,
-    "chunk_idx": "date",
-    "id": "DSCSA Pilot Project - Final Report.pdf::date::2023::27",
-    "is_date": true,
-    "raw_date": "2023",
-    "normalized": null,
-    "confidence": 0.7,
     "ambiguous": false,
     "flagged": false
   },
@@ -985,14 +985,14 @@
     "flagged": false
   },
   {
-    "text": "Date found: 2023. Normalized: N/A. Context: interoperable manner for 2023. All of which causes. Page: 28. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2023. Normalized: 2023. Context: interoperable manner for 2023. All of which causes. Page: 28. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 28,
     "chunk_idx": "date",
     "id": "DSCSA Pilot Project - Final Report.pdf::date::2023::28",
     "is_date": true,
     "raw_date": "2023",
-    "normalized": null,
+    "normalized": "2023",
     "confidence": 0.8,
     "ambiguous": false,
     "flagged": false
@@ -1011,7 +1011,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 2019\u20132020. Normalized: N/A. Context: current (2019\u20132020) Lot Level Transaction Information,. Page: 29. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2019\u20132020. Normalized: N/A. Context: This pilot explored the current (2019\u20132020) Lot Level. Page: 29. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 29,
     "chunk_idx": "date",
@@ -1019,12 +1019,12 @@
     "is_date": true,
     "raw_date": "2019\u20132020",
     "normalized": null,
-    "confidence": 1.0,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 2023. Normalized: N/A. Context: Barcode Readability for DSCSA 2023 Interoperability. Page: 30. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2023. Normalized: N/A. Context: for DSCSA 2023 Interoperability. Page: 30. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 30,
     "chunk_idx": "date",
@@ -1050,7 +1050,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 2017. Normalized: N/A. Context: conducted by AmerisourceBergen and McKesson in 2017, and again in. Page: 30. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2017. Normalized: N/A. Context: were conducted by AmerisourceBergen  and McKesson in 2017, and. Page: 30. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 30,
     "chunk_idx": "date",
@@ -1058,12 +1058,12 @@
     "is_date": true,
     "raw_date": "2017",
     "normalized": null,
-    "confidence": 1.0,
+    "confidence": 0.95,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 2018. Normalized: N/A. Context: and McKesson in 2017, and again in 2018 with the addition of. Page: 30. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2018. Normalized: N/A. Context: and McKesson in 2017, and again in 2018 with the. Page: 30. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 30,
     "chunk_idx": "date",
@@ -1071,7 +1071,7 @@
     "is_date": true,
     "raw_date": "2018",
     "normalized": null,
-    "confidence": 1.0,
+    "confidence": 0.95,
     "ambiguous": false,
     "flagged": false
   },
@@ -1115,7 +1115,20 @@
     "flagged": false
   },
   {
-    "text": "Date found: 2023. Normalized: N/A. Context: relating to the 2023 DSCSA requirements by utilizing. Page: 35. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2023 DSCSA requirements. Normalized: 2023. Context: testing key concepts relating to the 2023 DSCSA requirements by utilizing. Page: 35. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "doc": "DSCSA Pilot Project - Final Report.pdf",
+    "page": 35,
+    "chunk_idx": "date",
+    "id": "DSCSA Pilot Project - Final Report.pdf::date::2023 DSCSA requirements::35",
+    "is_date": true,
+    "raw_date": "2023 DSCSA requirements",
+    "normalized": "2023",
+    "confidence": 0.9,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 2023. Normalized: N/A. Context: package-level tracing and verification that go into effect in 2023 and explores. Page: 35. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 35,
     "chunk_idx": "date",
@@ -1123,7 +1136,7 @@
     "is_date": true,
     "raw_date": "2023",
     "normalized": null,
-    "confidence": 0.7,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -1167,17 +1180,17 @@
     "flagged": false
   },
   {
-    "text": "Date found: 2023 deadline. Normalized: N/A. Context: in accordance with the 2023 deadline. Page: 36. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2023. Normalized: N/A. Context: in accordance with the 2023 deadline.. Page: 36. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 36,
     "chunk_idx": "date",
-    "id": "DSCSA Pilot Project - Final Report.pdf::date::2023 deadline::36",
+    "id": "DSCSA Pilot Project - Final Report.pdf::date::2023::36",
     "is_date": true,
-    "raw_date": "2023 deadline",
+    "raw_date": "2023",
     "normalized": null,
-    "confidence": 0.6,
+    "confidence": 0.8,
     "ambiguous": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "text": "Date found: 6 months. Normalized: N/A. Context: Duration of Pilot Activities: 6 months. Page: 37. Document: DSCSA Pilot Project - Final Report.pdf.",
@@ -1219,19 +1232,6 @@
     "flagged": false
   },
   {
-    "text": "Date found: 5 months. Normalized: N/A. Context: Duration of Pilot Activities: 5 months. Page: 43. Document: DSCSA Pilot Project - Final Report.pdf.",
-    "doc": "DSCSA Pilot Project - Final Report.pdf",
-    "page": 43,
-    "chunk_idx": "date",
-    "id": "DSCSA Pilot Project - Final Report.pdf::date::5 months::43",
-    "is_date": true,
-    "raw_date": "5 months",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
     "text": "Date found: March 2019. Normalized: 2019-03-01. Context: In March 2019, PDSA published that proposed structure. Page: 43. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 43,
@@ -1258,20 +1258,46 @@
     "flagged": false
   },
   {
-    "text": "Date found: 8 months. Normalized: N/A. Context: legal formation of the governance body took approximately 8 months.. Page: 43. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 5 months. Normalized: N/A. Context: Duration of Pilot Activities: 5 months. Page: 43. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 43,
     "chunk_idx": "date",
-    "id": "DSCSA Pilot Project - Final Report.pdf::date::8 months::43",
+    "id": "DSCSA Pilot Project - Final Report.pdf::date::5 months::43",
     "is_date": true,
-    "raw_date": "8 months",
+    "raw_date": "5 months",
     "normalized": null,
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: November 27, 2019. Normalized: 2019-11-27. Context: DSCSA requirement for Verification Routing Services (VRS) for Saleable Returns. This requirement is dated. Page: 45. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: approximately 8 months. Normalized: N/A. Context: legal formation of the governance body took approximately 8 months.. Page: 43. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "doc": "DSCSA Pilot Project - Final Report.pdf",
+    "page": 43,
+    "chunk_idx": "date",
+    "id": "DSCSA Pilot Project - Final Report.pdf::date::approximately 8 months::43",
+    "is_date": true,
+    "raw_date": "approximately 8 months",
+    "normalized": null,
+    "confidence": 0.9,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: over a year. Normalized: N/A. Context: The Pharmaceutical Distribution Security Alliance (PDSA) worked for over a year to develop. Page: 43. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "doc": "DSCSA Pilot Project - Final Report.pdf",
+    "page": 43,
+    "chunk_idx": "date",
+    "id": "DSCSA Pilot Project - Final Report.pdf::date::over a year::43",
+    "is_date": true,
+    "raw_date": "over a year",
+    "normalized": null,
+    "confidence": 0.8,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: November 27, 2019. Normalized: 2019-11-27. Context: November 27, 2019, DSCSA requirement for Verification Routing. Page: 45. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 45,
     "chunk_idx": "date",
@@ -1323,7 +1349,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: November 2019. Normalized: 2019-11-01. Context: preparation for the November 2019 deadline \u2014 a move. Page: 47. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: November 2019. Normalized: 2019-11-01. Context: in preparation for the November 2019 deadline \u2014 a move. Page: 47. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 47,
     "chunk_idx": "date",
@@ -1336,7 +1362,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: November 2019. Normalized: 2019-11-01. Context: on meeting the November 2019 deadline and then assessing. Page: 47. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: November 2019. Normalized: 2019-11-01. Context: the November 2019 deadline and then assessing strategy. Page: 47. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 47,
     "chunk_idx": "date",
@@ -1349,7 +1375,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: Q4. Normalized: N/A. Context: occurred in mid to late Q4 as VRS Providers were. Page: 47. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: Q4. Normalized: N/A. Context: Many of the new connection issues occurred in mid to late Q4. Page: 47. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 47,
     "chunk_idx": "date",
@@ -1362,7 +1388,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: Q1 2020. Normalized: N/A. Context: pilot was extended into Q1 2020 when resources were. Page: 47. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: Q1 2020. Normalized: N/A. Context: this pilot was extended into Q1 2020 when resources were. Page: 47. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 47,
     "chunk_idx": "date",
@@ -1396,7 +1422,7 @@
     "is_date": true,
     "raw_date": "10 months",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -1414,7 +1440,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 2023. Normalized: N/A. Context: meet DSCSA 2023 regulations which include, but are. Page: 50. Document: DSCSA Pilot Project - Final Report.pdf.",
+    "text": "Date found: 2023. Normalized: N/A. Context: DSCSA 2023 regulations which include, but are not. Page: 50. Document: DSCSA Pilot Project - Final Report.pdf.",
     "doc": "DSCSA Pilot Project - Final Report.pdf",
     "page": 50,
     "chunk_idx": "date",
@@ -1422,7 +1448,7 @@
     "is_date": true,
     "raw_date": "2023",
     "normalized": null,
-    "confidence": 0.7,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
@@ -1438,6 +1464,169 @@
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
+  },
+  {
+    "text": "2019 THE UNITED STATES PHARMACOPEIA THE NATIONAL FORMULARY NF 37 Volume 3 By authority of the United States Pharmacopeial Convention. Prepared by the Council of Experts and its Expert Committees Official from May 1, 2019 The designation on the cover of this publication, \u201cUSP NF 2019,\u201d is for ease of identification only. The publication contains two separate compendia: The United States Pharmacopeia, Forty-Second Revision, and The National Formulary, Thirty-Seventh Edition. THE UNITED STATES PHARMACOPEIAL CONVENTION 12601 Twinbrook Parkway, Rockville, MD 20852",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 1,
+    "chunk_idx": 0,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p1::c0"
+  },
+  {
+    "text": "SIX-MONTH IMPLEMENTATION GUIDELINE The United States Pharmacopeia-National Formulary and its supplements become official six months after being released to the public. The USP-NF, which is released on November 1 of each year, becomes official on May 1 of the following year. This six-month implementation timing gives users more time to bring their methods and procedures into compliance with new and revised USP-NF requirements. The table below describes the official dates of the USP\u2014NF and its Supplements. The 2018 USP 41\u2014NF 36, and its supplements, Interim Revision Announcements (IRAs) and Revision Bulletins to that edition, will be official until May 1, 2019, at which time the USP 42-NF 37 becomes official. Publication Official Date USP 42-NF 37 November 1, 2018 | May 1, 2019 May 1, 2020 (except as superseded by supplements, IRAs, and Revision Bulletins) First Supplement to the February 1, 2019 August 1, 2019 May 1, 2020 (except as superseded by Second Supplement, IRAs, USP 42-NF 37 and Revision Bulletins) Second Supplement to the June 1, 2019 December 1, 2019 | May 1, 2020 (except as superseded by /RAs and Revision Bulletins) USP 42-NF 37 USP 43-NF 38 November 1, 2019 | May 1, 2020 May 1, 2021 (except as superseded by supplements, /RAs, and Revision Bulletins) The table below gives the details of the /RAs that will apply to USP 42-NF 37. PF Posting Date IRA Posting Date IRA Official Date January 2, 2019 March 31, 2019 May 31, 2019 July 1, 2019 March 1, 2019 May 31, 2019 July 26, 2019 September 1, 2019 Revision Bulletins are published on the USP website and the USP-NF Online product and become official on the date specified in the Revision Bulletin. NOTICE AND WARNING Concerning U.S. Patent or Trademark Rights\u2014The inclusion in The United States Pharmacopeia or in the National Formulary of a monograph on any drug in respect to which patent or trademark rights may exist shall not be deemed, and is not intended as, a grant of, or authority to exercise, any right or privilege protected by such patent or trademark. All such rights and privileges are vested in the patent or trademark owner, and no other person may exercise the same without express permission, authority, or license secured from such patent or trademark owner. Concerning Use of USP or NF Text\u2014Attention is called to the fact that USP and NF text is fully copyrighted. Authors and others wishing to use portions of the text should request permission to do so from the Secretary of the USPC Board of Trustees. Copyright \u00a9 2018 The United States Pharmacopeial Convention 12601 Twinbrook Parkway, Rockville, MD 20852 All rights reserved. ISSN 0195-7996 (print) ISSN 1930-2932 (online) ISBN 978-1-936424-85-6 Printed in the United States by United Book Press, inc., Baltimore, MD",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 2,
+    "chunk_idx": 0,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p2::c0"
+  },
+  {
+    "text": "United States by United Book Press, inc., Baltimore, MD",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 2,
+    "chunk_idx": 1,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p2::c1"
+  },
+  {
+    "text": "SPi42 Analysis . Samples: Standard solution A, Standard solution B, and Sample solution Treat the plate with Derivatization reagent B, dry in air, heat for 3 min at 100\u00b0, and immediately examine under white light. System suitability: Under white light, the derivatized _ , chromatogram of Standard solution B exhibits, in its lower third, a number of faint grayish-brown bands. In the middle of the chromatogram, an intense gray-brown band corresponding to oleuropein in Standard solution A appears. An intense violet band, corresponding to the oleanolic acid band in Standard solution A, is seen near the solvent front, and a weaker blue band due to maslinic acid just below it. Acceptance criteria: Under white light, the chromatogram of the Sample solution displays the bands similar in position and color to those seen in Standard solution B. Additional bands may be observed. COMPOSITION * CONTENT OF OLEUROPEIN Mobile phase: 0.1% phosphoric acid in water and acetonitrile (80:20) _ Standard solution: 0.2 mg/mL of USP Oleuropein RS in _ _Mobile phase _ Sample solution: Transfer about 1.0 g of Olive Leaf _ Powder, accurately weighed, to a 50-mL centrifuge tube, add 15 mL of Mobile phase, cap tightly, and sonicate for 20 min. Centrifuge, and transfer the supernatant to a 50- mL volumetric flask. Repeat with two additional 15-mL aliquots of Mobile phase, and combine all supernatants into the same volumetric flask. Dilute with Mobile phase to volume, and mix well. Dilute the resulting solution 10- fold with Mobile phase. Pass through a PTFE filter of 0.45- um or finer pore size, discarding the initial few milliliters of the filtrate. Chromatographic system (See Chromatography (621), System Suitability.) Mode: HPLC Detector: UV 230 nm Column: 4.6-mm x 25-cm; 5-~m packing L1 Column temperature: 25\u00b0 Flow rate: 1.5 ml/min Injection volume: 20 UL System suitability Sample: Standard solution Suitability requirements Tailing factor: NMT 2.0 for the oleuropein peak Relative standard deviation: NMT 2.0% determined for the oleuropein peak in replicate injections Analysis Samples: Standard solution and Sample solution Using the chromatogram of the Standard solution, identify the retention time of the peak corresponding to oleuropein in the Sample solution. Calculate the percentage of oleuropein (C,,H;,0,;) in the portion of Olive Leaf Powder taken: Result = (ry/rs) x C, x (V/W) x D x 100 ty = peak area of oleuropein from the Sample solution Is = peak area of oleuropein from the Standard solution \u00a2G; = concentration of USP Oleuropein RS in the Standard solution (mg/m) V = volume of the Sample solution (mL) W = weight of Olive Leaf Powder taken to prepare the Sample solution (mg) Dietary Supplements / Omega-3 Acid 5127 D = dilution factor, 10 Acceptance criteria: NLT 6.0% on the dried basis CONTAMINANTS \u00a9 ARTICLES OF BOTANICAL ORIGIN (561), Limits of Elemental Impurities: Meets the requirements \u00a9 ARTICLES OF BOTANICAL ORIGIN (561), Pesticide Residue Analysis: Meets the requirements \u00a9 MICROBIAL ENUMERATION TESTS (2021): The total aerobic bacterial count does not exceed 10\u00b0 cfu/g, the total combined molds and yeasts",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 3,
+    "chunk_idx": 0,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p3::c0"
+  },
+  {
+    "text": "the dried basis CONTAMINANTS \u00a9 ARTICLES OF BOTANICAL ORIGIN (561), Limits of Elemental Impurities: Meets the requirements \u00a9 ARTICLES OF BOTANICAL ORIGIN (561), Pesticide Residue Analysis: Meets the requirements \u00a9 MICROBIAL ENUMERATION TESTS (2021): The total aerobic bacterial count does not exceed 10\u00b0 cfu/g, the total combined molds and yeasts count does not exceed 105 cfu/g, and the bile-tolerant Gram-negative bacterial count does not exceed 10? cfu/g. \u00a2 ABSENCE OF SPECIFIED MICROORGANISMS (2022), Test Procedures, Test for Absence of Salmonella Species and Test for Absence of Escherichia coli: Meets the requirements SPECIFIC TESTS \u00a9 BOTANICAL CHARACTERISTICS Macroscopic: The powder is yellowish green. Microscopic: The powder shows fragments of abaxial epidermis with small anomocytic stomata and adaxial epidermis with thick-walled polygonal cells, palisade composed of three layers of cells, and spongy arenchyma composed of small cells. Fragments of the amina show thick cuticle. Long filiform sclereids and very large characteristic scutiform trichomes are abundant. Presence of fragments of epidermis with crypts may indicate adulteration with oleander leaves, while presence of numerous anomocytic stomata and large cluster crystals suggests adulteration with pittosporum. \u00a9 LoSs ON DRYING (731) Sample: 1.0 g of Olive Leaf Powder Analysis: Dry the Sample at 105\u00b0 for 2 h. Acceptance criteria: NMT 10.0% \u00a2 ARTICLES OF BOTANICAL ORIGIN (561), Methods of Analysis, Total Ash Sample: 1.0 g of Olive Leaf Powder Acceptance criteria: NMT 9.0% ADDITIONAL REQUIREMENTS \u00a9 PACKAGING AND STORAGE: Preserve in well-closed containers, protected from light and moisture, and store at room temperature. \u00a9 LABELING: The label states the official name of the article and the corresponding Latin binomial. \u00a9 USP REFERENCE STANDARDS (11) USP Oleanolic Acid RS USP Oleuropein RS USP Olive Leaf Dry Extract RS USP Rutin RS USP Verbascoside RS Omega-3 Acid Triglycerides DEFINITION Omega-3 Acid Triglycerides is a mixture of mono-, di-, and triesters of omega-3 acids with glycerol containing mainly triesters and obtained either by esterification of concentrated and purified omega-3 acids with glycerol or by transesterification of the omega-3 acid ethyl esters with glycerol. The omega-3 acids are from the body oil of fish of the families Engraulidae, Carangidae, Clupeidae, Osmeridae, Salmonidae, and Scombridae and are defined as the following: alpha-linolenic acid (C18:3 n-3), moroctic acid (C18:4 n-3), eicosatetraenoic acid (C20:4 n-3), eicosapentaenoic acid (EPA) (C20:5 n-3), je] 4) <= a S) a Sy) 3 > ~n",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 3,
+    "chunk_idx": 1,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p3::c1"
+  },
+  {
+    "text": "al \u00a3 a. iss) te D } \u20ac \u00b0 2 a) QO 5128 Omega-3 Acid / Dietary Supplements heneicosapentaenoic acid (C21:5 n-3), docosapentaenoic acid (C22:5 n-3), and docosahexaenoic acid (DHA) (C22:6 n-3). It contains NLT 58.0% of total omega-3 acids expressed as triglycerides and NLT the labeled amount of EPA and DHA, expressed as the free fatty acids. Suitable antioxidants in appropriate concentrations may be added. IDENTIFICATION \u00a2 A. The retention times of the peaks for eicosapentaenoic acid methyl ester and docosahexaenoic acid methyl ester of the Sample solution in the tests for Content of EPA and DHA and Content of Total Omega-3 Acids correspond to those for the respective compounds of the Standard solutions. If either EPA or DHA is not claimed on the labeling, the peak corresponding to that omega-3 acid does not exceed 15.0% of the total detected area of the Sample solution in the test for Content of EPA and DHA and Content of Total Omega-3 Acids. \u00a2 B. The retention time of the peak corresponding to the triglycerides of the Sample solution corresponds to the triglycerides peak of the System suitability solution in the test for Content of Oligomers and Partial Glycerides. COMPOSITION \u00a2 CONTENT OF EPA AND DHA Analysis: Proceed as directed in Fats and Fixed Oils (401), Omega-3 Fatty Acids Determination and Profile. Acceptance criteria: NLT the labeled amount, expressed as free acids \u00a9 CONTENT OF TOTAL OMEGA-3 ACIDS Analysis: Proceed as directed in Fats and Fixed Oils (401), Omega-3 Fatty Acids Determination and Profile. Acceptance criteria: NLT 58.0% of total omega-3 acids, expressed as triglycerides \u00a9 CONTENT OF OLIGOMERS AND PARTIAL GLYCERIDES Mobile phase: Use tetrahydrofuran. Sample solution: 1.00 mg/mL of Omega-3 Acid Triglycerides in Mobile phase System suitability solution: 0.5 mg/mL of monodocosahexaenoin, 0.3 mg/mL of didocosahexaenoin, and 0.2 mg/mL of tridocosahexaenoin in Mobile phase. [NoTe\u2014Suitable grades of monodocosahexaenoin, didocosahexaenoin, and tridocosahexaenoin may be obtained from Nu-Chek Prep.] Chromatographic system (See Chromatography (621), System Suitability.) Mode: LC Detector: Differential refractometer Columns: Three 7.8-mm x 30-cm; connected in series; packing L21, 7-um. Two columns are 50 nm in pore size, and the other is 10 nm, arranged so that the 50- nm pore size columns are closer to the injector. Flow rate: 0.8 mL/min Injection size: 40 pL System suitability Sample: System suitability solution Suitability requirements Elution order: Tridocosahexaenoin, didocosahexaenoin, and monodocosahexaenoin Resolution: NLT 2.0 between monodocosahexaenoin and didocosahexaenoin and NLT 1.0 between didocosahexaenoin and tridocosahexaenoin Analysis Sample: Sample solution Measure the areas of the major peaks. Calculate the percentage of oligomers in the portion of Omega-3 Acid Triglycerides taken: Result = (r ,/r 7) x 100 USP 42 ly = sum of the areas of the peaks with a retention time less than that of the triglyceride peak ry = sum of the areas of all peaks in the chromatogram Calculate the percentage of partial glycerides (rmmono- and diglycerides) in the portion of Omega-3 Acid Triglycerides taken: Result = (r ,/r ,) x 100 fy = sum of the areas of",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 4,
+    "chunk_idx": 0,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p4::c0"
+  },
+  {
+    "text": "less than that of the triglyceride peak ry = sum of the areas of all peaks in the chromatogram Calculate the percentage of partial glycerides (rmmono- and diglycerides) in the portion of Omega-3 Acid Triglycerides taken: Result = (r ,/r ,) x 100 fy = sum of the areas of the peaks corresponding to diglycerides and monoglycerides rr = sum of the areas of all peaks in the chromatogram Acceptance criteria: NMT 3.0% of oligomers and NMT 50.0% of partial glycerides CONTAMINANTS e LIMIT OF ARSENIC [Note\u2014For the preparation of all aqueous solutions and for the rinsing of glass, polytef, and plastic vessels before use, use water that has been passed through a strong-acid, strong-base, mixed-bed ion- exchange resin. Select all reagents to have as low a content of arsenic as practicable, and store all reagent solutions in containers of borosilicate glass. Cleanse glass, polytef, and plastic vessels before use by soaking in warm 8 N nitric acid for 30 min and by rinsing with deionized water.] Solution A: Transfer 1 g of ultrapure palladium metal into a Teflon beaker. Add 20 mL of water and 10 mL of nitric acid, and warm on a hot plate to dissolve. Allow the solution to cool to room temperature, transfer it into a 100-mL volumetric flask, and dilute with deionized water to volume. Solution B: Transfer 1 g of ultrapure magnesium nitrate into a Teflon beaker. Add 40 mL of water and 1 mL of nitric acid, and warm on a hot plate to dissolve the solids. Allow the solution to cool to room temperature, transfer it to a 100-mL volumetric flask, and dilute with deionized water to volume. Solution C: Solution A, Solution B, and 2% nitric acid (3:2:5). A volume of 5 pL provides 0.015 mg of palladium and 0.01 mg of magnesium nitrate. Blank: Nitric acid and water (1:19) Standard stock solution: Transfer 10.0 mL of Standard Arsenic Solution, prepared as directed in Arsenic (211), toa 100-mL volumetric flask. Add 40 mL of water and 5 mL of nitric acid, and dilute with water to volume. This solution contains 0.10 pg/mL of arsenic. Standard solutions: Dilute the Standard stock solution with the Blank to obtain concentrations of 0.002, 0.005, 0.010, 0.025, and 0.050 pg/mL of arsenic. Sample solution: For preparation of the Sample solution, use a microwave oven with a magnetron frequency of 2455 MHz and a selectable output power of 0-950 watts in 1% increments, equipped with advanced composite vessels with 100-mL polytef liners. Use rupture membranes to vent vessels should the pressure exceed 125 psi. The vessels fit into a turntable, and each vessel can be vented into an overflow container. Equip the microwave oven with an exhaust tube to ventilate fumes. [CauTion\u2014Wear proper eye protection and protective clothing and gloves.] Transfer approximately 500 mg of Omega-3 Acid Triglycerides, weighed to the nearest 0.1 mg, into a Teflon digestion vessel liner. Prepare samples in duplicate. Add 15 mL of nitric acid, and swirl gently. Cover the vessels",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 4,
+    "chunk_idx": 1,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p4::c1"
+  },
+  {
+    "text": "exhaust tube to ventilate fumes. [CauTion\u2014Wear proper eye protection and protective clothing and gloves.] Transfer approximately 500 mg of Omega-3 Acid Triglycerides, weighed to the nearest 0.1 mg, into a Teflon digestion vessel liner. Prepare samples in duplicate. Add 15 mL of nitric acid, and swirl gently. Cover the vessels with lids, leaving the vent fitting off.",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 4,
+    "chunk_idx": 2,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p4::c2"
+  },
+  {
+    "text": "USP 42 Predigest overnight under a hood. Place the rupture membrane in the vent fitting, and tighten the lid. Place all vessels on the microwave oven turntable. Connect the vent tubes to the vent trap, and connect the pressure- sensing line to the appropriate vessel. Initiate a two-stage digestion procedure by heating the microwave at 15% power for 15 min, followed by 25% power for 45 min. Remove the turntable of vessels from the oven, and allow the vessels to cool to room temperature. [NOTE\u2014A cool water bath may be used to speed the cooling process.] Vent the vessels when they reach room temperature. Remove the lids, and slowly add 2 mL of 30% hydrogen peroxide to each. Allow the reactions to subside, and seal the vessels. Return the vessels on the turntable to the microwave oven, and heat for an additional 15 min at 30% power. Remove the vessels from the oven, and allow them to cool to room temperature. Transfer the cooled digests into 25-mL volumetric flasks, and dilute with water to volume. Analysis: Program the graphite furnace as follows. Dry at 115\u00b0, using a 1-s ramp, a 65-s hold, and an argon flow of 300 mL/min; char the sample at 1000\u00b0, using a 1-s ramp, a 20-s hold, and an airflow of 300 mL/min; cool down, and purge the air from the furnace for 10 s, using a 20\u00b0 set temperature and an argon flow of 300 mL/min; atomize at 2400\u00b0, using a 0-s ramp and a 5-s hold with the argon flow stoppe ; and clean out at 2600\u00b0 with a 1-s ramp and a 5-s hold. Separately inject equal volumes (20 pL) of the Standard solutions, the Sample solution, and the Blank, followed by an injection of 5 uL of Solution C for each of the samples, into the graphite tube of a suitable graphite furnace atomic absorption spectrometer equipped with a hollow-cathode lamp for arsenic. Determine the peak area at the arsenic emission line at 193.7 nm, corrected for background absorption. Plot the corrected peak areas of the Standard solutions versus their contents of arsenic, in g/mL, and calculate the regression line best fitting the points. Determine the concentration, C, in ug/mL, of arsenic in each mL of the Sample solution by interpolation from the regression line. Calculate the content of arsenic in the portion of Omega-3 Acid Triglycerides taken: Result = (C x V)/W Cc = concentration of arsenic, as obtained above, in the Sample solution (ug/ml) V = final volume of the Sample solution (mL) Ww = weight \u2018of Omega-3 Acid Triglycerides taken to prepare the Sample solution (g) Acceptance criteria; NMT 0.1 g/g OF LEAD {Note\u2014For the preparation of all aqueous solutions and for the rinsing of glass, polytef, and plastic vessels before use, use water that has been passed through a strong-acid, strong-base, mixed-bed ion- exchange resin. Select all reagents to have as low a content of lead as practicable, and store all reagent solutions in containers of borosilicate glass.",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 5,
+    "chunk_idx": 0,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p5::c0"
+  },
+  {
+    "text": "solutions and for the rinsing of glass, polytef, and plastic vessels before use, use water that has been passed through a strong-acid, strong-base, mixed-bed ion- exchange resin. Select all reagents to have as low a content of lead as practicable, and store all reagent solutions in containers of borosilicate glass. Cleanse glass, polytef, and plastic vessels before use by soaking in warm 8 N nitric acid for 30 min and by rinsing with deionized water.] Solution A: 10 g of ultrapure monobasic ammonium phosphate in 1 mL of nitric acid and 40 mL of water to dissolve the phosphate. Dilute with deionized water to 100 mL. Solution B: 1 g of ultrapure magnesium nitrate to a Teflon beaker. Add 40 mL of water and 1 mL of nitric acid, and Dietary Supplements / Omega-3 Acid 5129 warm on a hot plate to dissolve the solids. Allow the solution to cool to room temperature, transfer it to a 100- mL volumetric flask, and dilute with deionized water to volume. Solution C: Solution A, Solution B, and 2% nitric acid (2:1:2). A volume of 5 pL provides 0.2 mg of phosphate plus 0.01 mg of magnesium nitrate. Blank: Nitric acid and water (1:19) Standard stock solution: Transfer 10.0 mL of lead nitrate stock solution TS to a 100-mL volumetric flask. Add 40 mL of water and 5 mL of nitric acid, and dilute with water to volume. Transfer 1.0 mL of this solution to a second 100- mL volumetric flask, add 50 mL of water and 1 mL of nitric acid, and dilute with water to volume. This solution contains 0.10 pg/mL of lead. Standard solutions: Dilute the Standard stock solution with the Blank to obtain concentrations of 0.002, 0.005, 0.010, 0.025, and 0.050 g/mL of lead. Sample solution: Prepare as directed for Sample solution in the test for Limit of Arsenic. Analysis: Program the graphite furnace as follows. Dry at 120\u00b0, using a 1-s ramp, a 55-s hold, and an argon flow of 300 mL/min; char the sample at 850\u00b0, using a 1-s ramp, a 30-s hold, and an airflow of 300 mL/min; cool down, and purge the air from the furnace for 10 s, using a 20\u00b0 set temperature and an argon flow of 300 mL/min; atomnize at 2100\u00b0, using a O-s ramp and a 5-s hold with the argon flow sto >ped and clean out at 2600\u00b0 with a 1-s ramp and a 5-s hold. Separately inject equal volumes (20 uL) of the Standard solutions, the Sample solution, and the Blank, followed by an injection of 5 pL of Solution C for each of the samples, into the graphite tube of a suitable graphite furnace atomic absorption spectrometer equipped with a hollow-cathode lamp for lead. Determine the peak area at the lead emission line at 283.3 nm, corrected for background absorption. Plot the corrected peak areas of the Standard solutions versus their contents of lead, in g/mL, and calculate the regression line best fitting the points. Determine the concentration,",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 5,
+    "chunk_idx": 1,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p5::c1"
+  },
+  {
+    "text": "with a hollow-cathode lamp for lead. Determine the peak area at the lead emission line at 283.3 nm, corrected for background absorption. Plot the corrected peak areas of the Standard solutions versus their contents of lead, in g/mL, and calculate the regression line best fitting the points. Determine the concentration, C, in ug/mL, of lead in each mL of the Sample solution by interpolation from the regression line. Calculate the content of lead in the portion of Omega-3 Acid Triglycerides taken: Result = (C x V)/W Cc = concentration of lead, as obtained above, in the Sample solution (g/mL) V = final volume of the Sample solution (mL) Ww = weight of Omega-3 Acid Triglycerides taken to prepare the Sample solution (g) Acceptance criteria: NMT 0.1 tig/g \u00a9 Limit OF CADMIUM [Note\u2014For the preparation of all aqueous solutions and for the rinsing of glass, polytef, and plastic vessels before use, use water that has been passed through a strong-acid, strong-base, mixed-bed ion- exchange resin. Select all reagents to have as low a content of cadmium as practicable, and store all reagent solutions in containers of borosilicate glass. Cleanse glass, polytef, and plastic vessels before use by soaking in warm 8 N nitric acid for 30 min and by rinsing with deionized water.] Solution A: 10 g of ultrapure monobasic ammonium phosphate in 40 mL of water and 1 mL of nitric acid to dissolve the phosphate. Dilute with deionized water to 100 mL. oO \"Nn \u2014 i} 3 e) Re) \u201c= ty ae) => rn",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 5,
+    "chunk_idx": 2,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p5::c2"
+  },
+  {
+    "text": "DS Monographs 5130 Omega-3 Acid / Dietary Supplements Solution B: Transfer 1 g of ultrapure magnesium nitrate to a Teflon beaker. Add 40 mL of water and 1 mL of nitric acid, and warm on a hot plate to dissolve the solids. Allow the solution to cool to room temperature, transfer it to a 100-mL volumetric flask, and dilute with deionized water to volume. Solution C: Solution A, Solution B, and 2% nitric acid to volume (2:1:2). A volume of 5 yL provides 0.2 mg of phosphate and 0.01 mg of magnesium nitrate. Blank: Nitric acid and water (1:19) Standard stock solution A: 0.1372 mg/mL of cadmium nitrate Standard stock solution B: Standard stock solution A, nitric acid, and water (2:1:97). This solution contains 0.10 g/mL of cadmium. [Note\u2014Before make up to final volume, dissolve in a portion of water and nitric acid.] Standard solutions: Dilute Standard stock solution B with the Blank to obtain concentrations of 0.002, 0.005, 0.010, 0.025, and 0.050 pg/mL of cadmium. Sample solution: Prepare as directed for Sample solution in the test for Limit of Arsenic. Analysis: Program the graphite furnace as follows. Dry at 120\u00b0, using a 1-s ramp, a 55-s hold, and an argon flow of 300 mL/min; char the sample at 850\u00b0, using a 1-s ramp, a 30-s hold, and an airflow of 300 mL/min; cool down, and purge the air from the furnace for 10 s, using a 20\u00b0 set temperature and an argon flow of 300 mL/min; atomize at 2400\u00b0, using a 0-s ramp and a 5-s hold with the argon flow stopped; and clean out at 2600\u00b0 with a 1-s ramp and a 5-s hold. Separately inject equal volumes (20 uL) of the Standard solutions, the Sample solution, and the Blank, followed by an injection of 5 pL of Solution C for each of the samples, into the graphite tube of a suitable graphite furnace atomic absorption spectrometer equipped with a hollow-cathode lamp for cadmium. Determine the peak area at the cadmium emission line at 228.8 nm, corrected for background absorption. Plot the corrected peak areas of the Standard solutions versus their contents of cadmium, in tg/mL, and calculate the regression line best fitting the points. Determine the concentration, C, in pg/mL, of cadmium in each mL of the Sample solution by interpolation from the regression line. Calculate the content of cadmium in the Omega-3 Acid Triglycerides taken: Result = (C x V)/W Cc = concentration of cadmium, as obtained above, in the Sample solution (ug/mL) V = final volume of the Sample solution (mL) Ww = weight of Omega-3 Acid Triglycerides taken to prepare the Sample solution (g) Acceptance criteria: NMT 0.1 g/g \u00a2 Limit OF MERCURY: Proceed as directed in Mercury (261), Method Ila, except use a Standard Mercury Solution having the equivalent of 0.1 g/mL of mercury. Sample solution: Prepare as directed for the Sample solution in the test for Limit of Arsenic, combining the two duplicate cooled digests into 1.0 mL of Potassium Permanganate Solution.",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 6,
+    "chunk_idx": 0,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p6::c0"
+  },
+  {
+    "text": "as directed in Mercury (261), Method Ila, except use a Standard Mercury Solution having the equivalent of 0.1 g/mL of mercury. Sample solution: Prepare as directed for the Sample solution in the test for Limit of Arsenic, combining the two duplicate cooled digests into 1.0 mL of Potassium Permanganate Solution. Acceptance criteria: NMT 0.1 g/g * LIMIT OF DIOXINS, FURANS, AND POLYCHLORINATED BIPHENYLS (PCBs) Analysis: Determine the content of polychlorinated dibenzo-para-dioxins (PCDDs) and polychlorinated dibenzofurans (PCDFs) by Method No. 1613, Revision B, of the Environmental Protection Agency. Determine the content of polychlorinated biphenyls (PCBs) by Method USP 42 No. 1668, Revision A, of the Environmental Protection Agency. Acceptance criteria: The sum of PCDDs andl PCDFs is NMT 2.0 pg/g of World Health Organization (WHO) toxic equivalents. The sum of PCDDs, PCDFs, and dioxin-like PCBs (polychlorinated biph\u00e9nyls, nonortho IUPAC congeners PCB-77, PCB-81, PCB-126, and PCB-169, and mono-ortho IUPAC congeners PCB-105, PCB-1 14, PCB-118, PCB-123, PCB-156, PCB-157, PCB-167, and PCB-189) is NMT 10.0 pg/g of WHO toxic equivalents. SPECIFIC TESTS \u00a2 FATS AND FIXED OlLs, Acid Value (401): NMT 3 \u00a2 FATS AND FIXED OILS, Anisidine Value (401): NMT 30.0 \u00a2 FATS AND FIXED QOiLs, Peroxide Value (401): NMT 10.0 \u00a2 FATS AND FIXED OILS, Unsaponifiable Matter (401): NMT 2.0% \u00a2 ABSORBANCE Sample solution: 0.24 mg/mL in isooctane Acceptance criteria: The absorbance is NMT 0.73, determined at 233 nm. ADDITIONAL REQUIREMENTS * PACKAGING AND STORAGE: Preserve in tight, light-resistant containers, and store at controlled room ternperature. It may be bottled or otherwise packaged in containers from which air has been expelled by production of a vacuum or by an inert gas. \u00b0 LABELING: The label states the average content of DHA and EPA as free acids, in mg/g, and the total content of omega-3 acids as free acids, in mg/g. It also states the name and concentration of any added antioxidant. Panthenol_see Panthenol General Monographs Phenylalanine\u2014sce Phenylalanine General Monographs Phyllanthus amarus DEFINITION Phyllanthus amarus consists of the dried aerial parts of Phyllanthus amarus Schumach. (Fam. Euphorbiaceae). It contains NLT 0.25% of lignans, calculated as the sum of phyllanthin and hypophyllanthin on the dried basis. IDENTIFICATION \u00b0 A. Phyllanthus amarus meets the requirements in Specific Tests for Botanical Characteristics. \u00a2 B. THIN-LAYER CHROMATOGRAPHIC IDENTIFICATION TEST (201) Standard solution A: 0.1 mg/mL of USP Phyllanthin RS in methanol Standard solution B: 10 mg/mL of USP Powdered Phyllanthus amarus Extract RS in methanol. Sonicate for about 10 min, centrifuge, and use the supernatant. Sample solution: Sonicate about 0.5 g of Phyllanthus amarus, finely powdered, in 5 mL of methanol for 10 min, centrifuge, and use the supernatant. Adsorbent: Chromatographic silica gel with an average particle size of 10-15 um (TLC plates) or 5 um (HPTLC plates)",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 6,
+    "chunk_idx": 1,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p6::c1"
+  },
+  {
+    "text": "plates)",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 6,
+    "chunk_idx": 2,
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::p6::c2"
+  },
+  {
+    "text": "Date found: 2019. Normalized: N/A. Context: 2019 THE UNITED STATES PHARMACOPEIA. Page: 1. Document: FDA-2019-P-3266-0004_attachment_12.pdf.",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 1,
+    "chunk_idx": "date",
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::date::2019::1",
+    "is_date": true,
+    "raw_date": "2019",
+    "normalized": null,
+    "confidence": 0.7,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: May 1, 2019. Normalized: 2019-05-01. Context: Official from May 1, 2019. Page: 1. Document: FDA-2019-P-3266-0004_attachment_12.pdf.",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 1,
+    "chunk_idx": "date",
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::date::May 1, 2019::1",
+    "is_date": true,
+    "raw_date": "May 1, 2019",
+    "normalized": "2019-05-01",
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 2019. Normalized: N/A. Context: The designation on the cover of this publication, \"USP NF 2019,\" is for ease of. Page: 1. Document: FDA-2019-P-3266-0004_attachment_12.pdf.",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 1,
+    "chunk_idx": "date",
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::date::2019::1",
+    "is_date": true,
+    "raw_date": "2019",
+    "normalized": null,
+    "confidence": 0.7,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 3 min. Normalized: N/A. Context: heat for 3 min at 100\u00b0, and immediately examine. Page: 3. Document: FDA-2019-P-3266-0004_attachment_12.pdf.",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 3,
+    "chunk_idx": "date",
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::date::3 min::3",
+    "is_date": true,
+    "raw_date": "3 min",
+    "normalized": null,
+    "confidence": 0.1,
+    "ambiguous": false,
+    "flagged": true
+  },
+  {
+    "text": "Date found: 20 min. Normalized: N/A. Context: cap tightly, and sonicate for 20 min. Centrifuge, and transfer. Page: 3. Document: FDA-2019-P-3266-0004_attachment_12.pdf.",
+    "doc": "FDA-2019-P-3266-0004_attachment_12.pdf",
+    "page": 3,
+    "chunk_idx": "date",
+    "id": "FDA-2019-P-3266-0004_attachment_12.pdf::date::20 min::3",
+    "is_date": true,
+    "raw_date": "20 min",
+    "normalized": null,
+    "confidence": 0.1,
+    "ambiguous": false,
+    "flagged": true
   },
   {
     "text": "Importation of Certain FDA- Approved Human Prescription Drugs, Including Biological Products, and Combination Products under Section 801(d)(1)(B) of the Federal Food, Drug, and Cosmetic Act Guidance for Industry U.S. Department of Health and Human Services Food and Drug Administration Center for Drug Evaluation and Research (CDER) Center for Biologics Evaluation and Research (CBER) Office of Combination Products (OCP) Office of Regulatory Affairs (ORA) September 2020 Labeling Pharmaceutical Quality/CMC",
@@ -1650,7 +1839,7 @@
     "id": "importation-guidance.pdf::p18::c0"
   },
   {
-    "text": "Date found: September 2020. Normalized: 2020-09. Context: Office of Regulatory Affairs (ORA) September 2020. Page: 1. Document: importation-guidance.pdf.",
+    "text": "Date found: September 2020. Normalized: 2020-09. Context: Office of Regulatory Affairs (ORA)\n\nSeptember 2020. Page: 1. Document: importation-guidance.pdf.",
     "doc": "importation-guidance.pdf",
     "page": 1,
     "chunk_idx": "date",
@@ -1658,12 +1847,12 @@
     "is_date": true,
     "raw_date": "September 2020",
     "normalized": "2020-09",
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: September 2020. Normalized: 2020-09. Context: Office of Regulatory Affairs (ORA)\n\n\nSeptember 2020\nLabeling. Page: 2. Document: importation-guidance.pdf.",
+    "text": "Date found: September 2020. Normalized: 2020-09. Context: Office of Regulatory Affairs (ORA)\n\nSeptember 2020\nLabeling. Page: 2. Document: importation-guidance.pdf.",
     "doc": "importation-guidance.pdf",
     "page": 2,
     "chunk_idx": "date",
@@ -1671,7 +1860,7 @@
     "is_date": true,
     "raw_date": "September 2020",
     "normalized": "2020-09",
-    "confidence": 1.0,
+    "confidence": 0.95,
     "ambiguous": false,
     "flagged": false
   },
@@ -1689,7 +1878,7 @@
     "flagged": true
   },
   {
-    "text": "Date found: November 27, 2018. Normalized: 2018-11-27. Context: DSCSA-covered MMA products will not be considered \"grandfathered\" for purposes of the product identifier requirement, because they will be packaged after November 27, 2018.. Page: 14. Document: importation-guidance.pdf.",
+    "text": "Date found: November 27, 2018. Normalized: 2018-11-27. Context: packaged after November 27, 2018.21. Page: 14. Document: importation-guidance.pdf.",
     "doc": "importation-guidance.pdf",
     "page": 14,
     "chunk_idx": "date",
@@ -1702,7 +1891,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 10 business days. Normalized: N/A. Context: in advance of the first import entry of an MMA product. Page: 16. Document: importation-guidance.pdf.",
+    "text": "Date found: 10 business days. Normalized: N/A. Context: notifying the Agency of the importation of an MMA product 10 business days in advance. Page: 16. Document: importation-guidance.pdf.",
     "doc": "importation-guidance.pdf",
     "page": 16,
     "chunk_idx": "date",
@@ -1710,12 +1899,12 @@
     "is_date": true,
     "raw_date": "10 business days",
     "normalized": null,
-    "confidence": 0.9,
+    "confidence": 0.0,
     "ambiguous": false,
-    "flagged": false
+    "flagged": true
   },
   {
-    "text": "Date found: Month Year. Normalized: N/A. Context: Dear Healthcare Provider\nMonth Year. Page: 17. Document: importation-guidance.pdf.",
+    "text": "Date found: Month Year. Normalized: N/A. Context: Dear Healthcare Provider Month Year IMPORTED PRODUCT. Page: 17. Document: importation-guidance.pdf.",
     "doc": "importation-guidance.pdf",
     "page": 17,
     "chunk_idx": "date",
@@ -1909,7 +2098,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: CENTER FOR DRUG EVALUATION AND RESEARCH\nFiscal Year 2023. Page: 1. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of. Page: 1. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 1,
     "chunk_idx": "date",
@@ -1922,15 +2111,15 @@
     "flagged": false
   },
   {
-    "text": "Date found: June 2024. Normalized: 2024-06-30. Context: Report on the State of\nPharmaceutical Quality\nJune 2024. Page: 1. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: June 2024. Normalized: 2024-06. Context: Pharmaceutical Quality June 2024. Page: 1. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 1,
     "chunk_idx": "date",
     "id": "OPQ_FY23RSPQ_20250821.pdf::date::June 2024::1",
     "is_date": true,
     "raw_date": "June 2024",
-    "normalized": "2024-06-30",
-    "confidence": 0.9,
+    "normalized": "2024-06",
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -1943,20 +2132,20 @@
     "is_date": true,
     "raw_date": "20250821",
     "normalized": "2025-08-21",
-    "confidence": 1.0,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: Report on the State of Pharmaceutical Quality (FY2023) was. Page: 2. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY23. Normalized: N/A. Context: OPQ FY23RSPQ 20250821. Page: 2. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 2,
     "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::2",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY23::2",
     "is_date": true,
-    "raw_date": "FY2023",
+    "raw_date": "FY23",
     "normalized": null,
-    "confidence": 1.0,
+    "confidence": 0.95,
     "ambiguous": false,
     "flagged": false
   },
@@ -1969,6 +2158,32 @@
     "is_date": true,
     "raw_date": "20250821",
     "normalized": "2025-08-21",
+    "confidence": 0.95,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical. Page: 2. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 2,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::Fiscal Year 2023::2",
+    "is_date": true,
+    "raw_date": "Fiscal Year 2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: Report on the State of Pharmaceutical Quality (FY20231). Page: 2. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 2,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::2",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
@@ -1987,7 +2202,20 @@
     "flagged": true
   },
   {
-    "text": "Date found: 6 months. Normalized: N/A. Context: This is not present in the text. Page: 2. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: quality of the U.S. drugs supply, including biological. Page: 2. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 2,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::2",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 0.7,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 6 months. Normalized: N/A. Context: . Page: 2. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 2,
     "chunk_idx": "date",
@@ -1998,19 +2226,6 @@
     "confidence": 0.0,
     "ambiguous": false,
     "flagged": true
-  },
-  {
-    "text": "Date found: FY23. Normalized: N/A. Context: OPQ FY23RSPQ 20250821. Page: 3. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 3,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY23::3",
-    "is_date": true,
-    "raw_date": "FY23",
-    "normalized": null,
-    "confidence": 0.95,
-    "ambiguous": false,
-    "flagged": false
   },
   {
     "text": "Date found: 20250821. Normalized: 2025-08-21. Context: OPQ FY23RSPQ 20250821. Page: 3. Document: OPQ_FY23RSPQ_20250821.pdf.",
@@ -2026,15 +2241,15 @@
     "flagged": false
   },
   {
-    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 3. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 3. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 3,
     "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::Fiscal Year 2023::3",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::3",
     "is_date": true,
-    "raw_date": "Fiscal Year 2023",
+    "raw_date": "FY2023",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -2065,7 +2280,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: At the end of FY2023, the CDER Site Catalog. Page: 3. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: At the end of FY2023, the CDER Site Catalog6 included 4,819. Page: 3. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 3,
     "chunk_idx": "date",
@@ -2086,12 +2301,12 @@
     "is_date": true,
     "raw_date": "five years",
     "normalized": null,
-    "confidence": 0.85,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: Of all FY2023 drug manufacturing sites, 40%. Page: 3. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: Of all FY2023 drug manufacturing sites, 40% are in the. Page: 3. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 3,
     "chunk_idx": "date",
@@ -2104,33 +2319,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY23. Normalized: N/A. Context: OPQ FY23RSPQ 20250821. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 4,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY23::4",
-    "is_date": true,
-    "raw_date": "FY23",
-    "normalized": null,
-    "confidence": 0.95,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: 20250821. Normalized: 2025-08-21. Context: OPQ FY23RSPQ 20250821. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 4,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::20250821::4",
-    "is_date": true,
-    "raw_date": "20250821",
-    "normalized": "2025-08-21",
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: The five countries with the most sites in the FY2023 Site Catalog. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 4,
     "chunk_idx": "date",
@@ -2139,32 +2328,6 @@
     "raw_date": "FY2023",
     "normalized": null,
     "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2023. Normalized: N/A. Context: countries with the most sites in the FY2023 Site Catalog (U.S., India,. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 4,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::4",
-    "is_date": true,
-    "raw_date": "FY2023",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: five years. Normalized: N/A. Context: had large net increases over the past five years, accounting for new. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 4,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::five years::4",
-    "is_date": true,
-    "raw_date": "five years",
-    "normalized": null,
-    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
@@ -2182,20 +2345,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2022. Normalized: N/A. Context: quality assurance inspections, which includes surveillance and for-cause inspections, increased from 522 in FY2022. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 4,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2022::4",
-    "is_date": true,
-    "raw_date": "FY2022",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2023. Normalized: N/A. Context: includes surveillance and for-cause inspections, increased from 522 in FY2022 to 766 in FY2023; this is. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: Sites in FY2023 Catalog. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 4,
     "chunk_idx": "date",
@@ -2208,20 +2358,33 @@
     "flagged": false
   },
   {
-    "text": "Date found: COVID-19 Public Health Emergency (PHE). Normalized: N/A. Context: highest number of inspections since the start of the COVID-19 Public Health Emergency (PHE). Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2022. Normalized: N/A. Context: inspections, which includes surveillance and for-cause inspections, increased from 522 in FY2022 to 766 in FY2023. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 4,
     "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::COVID-19 Public Health Emergency (PHE)::4",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2022::4",
     "is_date": true,
-    "raw_date": "COVID-19 Public Health Emergency (PHE)",
+    "raw_date": "FY2022",
     "normalized": null,
-    "confidence": 0.6,
+    "confidence": 1.0,
     "ambiguous": false,
-    "flagged": true
+    "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: increased from 522 in FY2022 to 766 in FY2023; this is the highest. Page: 4. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 4,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::4",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 5,
     "chunk_idx": "date",
@@ -2234,20 +2397,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 20250821. Normalized: 2025-08-21. Context: OPQ FY23RSPQ 20250821. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 5,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::20250821::5",
-    "is_date": true,
-    "raw_date": "20250821",
-    "normalized": "2025-08-21",
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2019-FY2023. Normalized: N/A. Context: Drug Quality Assurance Inspections by Country and Region for FY2019-FY2023. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2019-FY2023. Normalized: N/A. Context: Drug Quality Assurance Inspections by Country and Region for. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 5,
     "chunk_idx": "date",
@@ -2260,7 +2410,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2022. Normalized: N/A. Context: MRAs increased from 144 in FY2022 to 187 in FY2023. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2022. Normalized: N/A. Context: number of inspections classified under the MRAs increased from 144 in. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 5,
     "chunk_idx": "date",
@@ -2273,13 +2423,78 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2019. Normalized: N/A. Context: coverage was 32% - 39% for those countries in FY2019.. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: MRAs increased from 144 in FY2022 to 187 in. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 5,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::5",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: constituting approximately 59% of all FY2023 drug quality assurance. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 5,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::5",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: 6% of the Chinese sites and 20% of the U.S. sites in the Site Catalog were inspected in. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 5,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::5",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: China, travel restrictions continued for almost all of FY2023,. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 5,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::5",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2019. Normalized: N/A. Context: countries in FY2019.. Page: 5. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 5,
     "chunk_idx": "date",
     "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2019::5",
     "is_date": true,
     "raw_date": "FY2019",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: as of FY2023. Page: 6. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 6,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::6",
+    "is_date": true,
+    "raw_date": "FY2023",
     "normalized": null,
     "confidence": 1.0,
     "ambiguous": false,
@@ -2294,19 +2509,6 @@
     "is_date": true,
     "raw_date": "20250821",
     "normalized": "2025-08-21",
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2023. Normalized: N/A. Context: Table 2. Percent of Sites with Most Recent Inspection Outcomes of NAI or VAI by Country/Region as of FY2023. Page: 6. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 6,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::6",
-    "is_date": true,
-    "raw_date": "FY2023",
-    "normalized": null,
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
@@ -2351,7 +2553,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2022. Normalized: N/A. Context: product NDCs (123,532 in FY2022).. Page: 7. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2022. Normalized: N/A. Context: (123,532 in FY2022).. Page: 7. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 7,
     "chunk_idx": "date",
@@ -2377,7 +2579,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: configurations. In FY2023, the number of applications in the. Page: 7. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: In FY2023, the number of applications in the catalog increased. Page: 7. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 7,
     "chunk_idx": "date",
@@ -2416,14 +2618,14 @@
     "flagged": false
   },
   {
-    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 8. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: 20250821. Normalized: 2025-08-21. Context: OPQ FY23RSPQ 20250821. Page: 8. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 8,
     "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::Fiscal Year 2023::8",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::20250821::8",
     "is_date": true,
-    "raw_date": "Fiscal Year 2023",
-    "normalized": null,
+    "raw_date": "20250821",
+    "normalized": "2025-08-21",
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
@@ -2494,19 +2696,6 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY23. Normalized: N/A. Context: OPQ FY23RSPQ 20250821. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 11,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY23::11",
-    "is_date": true,
-    "raw_date": "FY23",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
     "text": "Date found: 20250821. Normalized: 2025-08-21. Context: OPQ FY23RSPQ 20250821. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 11,
@@ -2520,20 +2709,20 @@
     "flagged": false
   },
   {
-    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY23. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 11,
     "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::Fiscal Year 2023::11",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY23::11",
     "is_date": true,
-    "raw_date": "Fiscal Year 2023",
+    "raw_date": "FY23",
     "normalized": null,
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: During FY2023, CDER received 12,549 quality-related. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: During FY2023, CDER received 12,549 quality-related MW reports. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 11,
     "chunk_idx": "date",
@@ -2546,7 +2735,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2022. Normalized: N/A. Context: increase from FY2022), 3,792 FAR (8.3% increase from. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2022. Normalized: N/A. Context: 1.6 % increase from FY2022), 3,792 FAR (8.3% increase from FY2022). Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 11,
     "chunk_idx": "date",
@@ -2559,39 +2748,143 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2022. Normalized: N/A. Context: 8.3% increase from FY2022), 347 BPDR (77% increase. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 11,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2022::11",
-    "is_date": true,
-    "raw_date": "FY2022",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2022. Normalized: N/A. Context: 77% increase from FY2022), and 398 quality-related. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 11,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2022::11",
-    "is_date": true,
-    "raw_date": "FY2022",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2023. Normalized: N/A. Context: total volume of PQD reports increased by 5% to 17,086 in FY2023.. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: the total volume of PQD reports increased by 5% to 17,086 in FY2023.. Page: 11. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 11,
     "chunk_idx": "date",
     "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::11",
     "is_date": true,
     "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY23. Normalized: N/A. Context: OPQ FY23RSPQ 20250821. Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY23::12",
+    "is_date": true,
+    "raw_date": "FY23",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 20250821. Normalized: 2025-08-21. Context: OPQ FY23RSPQ 20250821. Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::20250821::12",
+    "is_date": true,
+    "raw_date": "20250821",
+    "normalized": "2025-08-21",
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::12",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: During FY2023, FDA added 93 companies to import alerts. Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::12",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2021. Normalized: N/A. Context: than in FY2021 and FY2022 (which had 49 and 28). Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2021::12",
+    "is_date": true,
+    "raw_date": "FY2021",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2022. Normalized: N/A. Context: than in FY2021 and FY2022 (which had 49 and 28). Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2022::12",
+    "is_date": true,
+    "raw_date": "FY2022",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2022. Normalized: N/A. Context: was 26% less than in FY2022 but similar to the. Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2022::12",
+    "is_date": true,
+    "raw_date": "FY2022",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: An increase in import alert additions related to site inspections (19 in FY2023 compared with 6 and 7. Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::12",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2022. Normalized: N/A. Context: inspections (19 in FY2023 compared with 6 and 7, respectively, in FY2022 and FY2021). Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2022::12",
+    "is_date": true,
+    "raw_date": "FY2022",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2021. Normalized: N/A. Context: inspections (19 in FY2023 compared with 6 and 7, respectively, in FY2022 and FY2021). Page: 12. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 12,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2021::12",
+    "is_date": true,
+    "raw_date": "FY2021",
     "normalized": null,
     "confidence": 1.0,
     "ambiguous": false,
@@ -2606,7 +2899,7 @@
     "is_date": true,
     "raw_date": "FY23",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -2624,7 +2917,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: Figure 4. FY2023 Drug-Quality-Related Import Alerts Additions by. Page: 13. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: Figure 4. FY2023 Drug-Quality-Related Import Alerts. Page: 13. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 13,
     "chunk_idx": "date",
@@ -2637,7 +2930,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: In FY2023, the United States Pharmacopeia Therapeutic Category. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: In FY2023, the United States Pharmacopeia Therapeutic. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 15,
     "chunk_idx": "date",
@@ -2650,7 +2943,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: February 2023. Normalized: 2023-02-01. Context: In February 2023, FDA notified consumers to stop using eye. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: February 2023. Normalized: 2023-02-01. Context: In February 2023, FDA notified consumers to stop. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 15,
     "chunk_idx": "date",
@@ -2663,7 +2956,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2022. Normalized: N/A. Context: Ophthalmic agents moved up from eighth in FY2022 to third,. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2022. Normalized: N/A. Context: agents moved up from eighth in FY2022 to third,. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 15,
     "chunk_idx": "date",
@@ -2676,7 +2969,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: accounting for 17% of FY2023 recalls. Multiple incidents of. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: accounting for 17% of FY2023 recalls. Multiple. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 15,
     "chunk_idx": "date",
@@ -2689,7 +2982,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: October 2023. Normalized: 2023-10-01. Context: warning letter was issued in October 2023. In December 2023,. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: October 2023. Normalized: 2023-10-01. Context: blindness were identified and a warning letter was issued in October 2023.. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 15,
     "chunk_idx": "date",
@@ -2702,7 +2995,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: December 2023. Normalized: 2023-12-01. Context: In December 2023, FDA issued a draft guidance, Quality. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: December 2023. Normalized: 2023-12-01. Context: In December 2023, FDA issued a draft guidance,. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 15,
     "chunk_idx": "date",
@@ -2715,7 +3008,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: October 2023. Normalized: 2023-10-01. Context: that revised the earlier October 2023 draft. It added. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: October 2023. Normalized: 2023-10-01. Context: that revised the earlier October 2023 draft. It. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 15,
     "chunk_idx": "date",
@@ -2728,7 +3021,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: Figure 6. Top Ten Recalls in FY2023 by USP Therapeutic. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: Figure 6. Top Ten Recalls in FY2023 by USP. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 15,
     "chunk_idx": "date",
@@ -2741,7 +3034,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2022. Normalized: N/A. Context: a decrease from 28 in FY2022. Unapproved drugs are not. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2022. Normalized: N/A. Context: a decrease from 28 in FY2022. Unapproved drugs. Page: 15. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 15,
     "chunk_idx": "date",
@@ -2754,7 +3047,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: In FY2023, FDA issued 94 warning letters to drug. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: In FY2023, FDA issued 94 warning letters to drug manufacturing. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 16,
     "chunk_idx": "date",
@@ -2767,7 +3060,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: less than 20% of FY2023 inspections. Of those sites,. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: of FY2023 inspections. Of those sites, over half manufactured. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 16,
     "chunk_idx": "date",
@@ -2780,7 +3073,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: During FY2023, FDA continued to effectively leverage. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: During FY2023, FDA continued to effectively leverage records. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 16,
     "chunk_idx": "date",
@@ -2793,7 +3086,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2023. Normalized: N/A. Context: Over a quarter of the FY2023 warning letters resulted. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2023. Normalized: N/A. Context: Over a quarter of the FY2023 warning letters resulted from. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 16,
     "chunk_idx": "date",
@@ -2806,7 +3099,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2019-FY2023. Normalized: N/A. Context: Warning Letters by Country and Region for FY2019-FY2023. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2019-FY2023. Normalized: N/A. Context: Figure 7. Warning Letters by Country and Region for FY2019-FY2023. Page: 16. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 16,
     "chunk_idx": "date",
@@ -2827,7 +3120,7 @@
     "is_date": true,
     "raw_date": "20250821",
     "normalized": "2025-08-21",
-    "confidence": 1.0,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
@@ -2839,6 +3132,97 @@
     "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY23::17",
     "is_date": true,
     "raw_date": "FY23",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 17,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::Fiscal Year 2023::17",
+    "is_date": true,
+    "raw_date": "Fiscal Year 2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2018. Normalized: N/A. Context: record requests during FY2018 \u2013 FY202321 compared how often each. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 17,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2018::17",
+    "is_date": true,
+    "raw_date": "FY2018",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2023. Normalized: N/A. Context: record requests during FY2018 \u2013 FY202321 compared how often each. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 17,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::17",
+    "is_date": true,
+    "raw_date": "FY2023",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2020. Normalized: N/A. Context: Starting in FY2020, the number of inspections decreased (with a low. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 17,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2020::17",
+    "is_date": true,
+    "raw_date": "FY2020",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2021. Normalized: N/A. Context: in FY2021) due to travel restrictions during the COVID-19 PHE. In. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 17,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2021::17",
+    "is_date": true,
+    "raw_date": "FY2021",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2021. Normalized: N/A. Context: \u00a7704(a)(4) records requests peaked in FY2021 and has since leveled. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 17,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2021::17",
+    "is_date": true,
+    "raw_date": "FY2021",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: FY2020. Normalized: N/A. Context: increasing number of actions and enforcement, and since FY2020, record. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 17,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2020::17",
+    "is_date": true,
+    "raw_date": "FY2020",
     "normalized": null,
     "confidence": 1.0,
     "ambiguous": false,
@@ -2858,93 +3242,15 @@
     "flagged": false
   },
   {
-    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: two years. Normalized: N/A. Context: however, during the past two years, increases in demand caused. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 17,
     "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::Fiscal Year 2023::17",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::two years::17",
     "is_date": true,
-    "raw_date": "Fiscal Year 2023",
+    "raw_date": "two years",
     "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2018. Normalized: N/A. Context: requests during FY2018 \u2013 FY202321 compared how often each was. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 17,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2018::17",
-    "is_date": true,
-    "raw_date": "FY2018",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2023. Normalized: N/A. Context: requests during FY2018 \u2013 FY202321 compared how often each was. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 17,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2023::17",
-    "is_date": true,
-    "raw_date": "FY2023",
-    "normalized": null,
-    "confidence": 0.9,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2020. Normalized: N/A. Context: Starting in FY2020, the number of inspections decreased (with a. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 17,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2020::17",
-    "is_date": true,
-    "raw_date": "FY2020",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2021. Normalized: N/A. Context: inspections decreased (with a low in FY2021) due to travel. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 17,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2021::17",
-    "is_date": true,
-    "raw_date": "FY2021",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2021. Normalized: N/A. Context: requests peaked in FY2021 and has since leveled off. These. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 17,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2021::17",
-    "is_date": true,
-    "raw_date": "FY2021",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
-    "text": "Date found: FY2020. Normalized: N/A. Context: and enforcement, and since FY2020, record requests have been. Page: 17. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 17,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY2020::17",
-    "is_date": true,
-    "raw_date": "FY2020",
-    "normalized": null,
-    "confidence": 1.0,
+    "confidence": 0.7,
     "ambiguous": false,
     "flagged": false
   },
@@ -2962,7 +3268,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2018-FY2023. Normalized: N/A. Context: Counts of Inspections and \u00a7704(a)(4) Record Requests: Impacts on Actions and Enforcement (FY2018-FY2023). Page: 18. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2018-FY2023. Normalized: N/A. Context: Inspections and \u00a7704(a)(4) Record Requests: Impacts on Actions and Enforcement (FY2018-FY2023). Page: 18. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 18,
     "chunk_idx": "date",
@@ -2975,7 +3281,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: CY2022-CY2023. Normalized: N/A. Context: The reasons for the 81 new shortages in CY2022-CY2023 (Figure 9) and can be compared. Page: 18. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: CY2022-CY2023. Normalized: N/A. Context: reasons for the 81 new shortages in CY2022-CY2023 (Figure 9). Page: 18. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 18,
     "chunk_idx": "date",
@@ -2988,7 +3294,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 2013-2017. Normalized: N/A. Context: compared with 2013-2017 data in the 2019 report Drug Shortages: Root Causes. Page: 18. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: 2013-2017. Normalized: N/A. Context: and can be compared with 2013-2017 data in the 2019 report. Page: 18. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 18,
     "chunk_idx": "date",
@@ -2996,12 +3302,12 @@
     "is_date": true,
     "raw_date": "2013-2017",
     "normalized": null,
-    "confidence": 1.0,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 2019. Normalized: N/A. Context: in the 2019 report Drug Shortages: Root Causes and Potential Solutions. Page: 18. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: 2019. Normalized: N/A. Context: in the 2019 report Drug Shortages: Root Causes and Potential Solutions.. Page: 18. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 18,
     "chunk_idx": "date",
@@ -3040,19 +3346,6 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY23. Normalized: N/A. Context: OPQ FY23RSPQ 20250821. Page: 19. Document: OPQ_FY23RSPQ_20250821.pdf.",
-    "doc": "OPQ_FY23RSPQ_20250821.pdf",
-    "page": 19,
-    "chunk_idx": "date",
-    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY23::19",
-    "is_date": true,
-    "raw_date": "FY23",
-    "normalized": null,
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
-  },
-  {
     "text": "Date found: 20250821. Normalized: 2025-08-21. Context: OPQ FY23RSPQ 20250821. Page: 19. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 19,
@@ -3066,7 +3359,20 @@
     "flagged": false
   },
   {
-    "text": "Date found: CY2022. Normalized: N/A. Context: New Shortages in CY2022 and CY2023. Page: 19. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY23. Normalized: N/A. Context: OPQ FY23RSPQ 20250821. Page: 19. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 19,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::FY23::19",
+    "is_date": true,
+    "raw_date": "FY23",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: CY2022. Normalized: N/A. Context: Reasons for New Shortages in CY2022 and CY2023. Page: 19. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 19,
     "chunk_idx": "date",
@@ -3079,7 +3385,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: CY2023. Normalized: N/A. Context: New Shortages in CY2022 and CY2023. Page: 19. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: CY2023. Normalized: N/A. Context: Reasons for New Shortages in CY2022 and CY2023. Page: 19. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 19,
     "chunk_idx": "date",
@@ -3113,7 +3419,7 @@
     "is_date": true,
     "raw_date": "FY23",
     "normalized": null,
-    "confidence": 1.0,
+    "confidence": 0.95,
     "ambiguous": false,
     "flagged": false
   },
@@ -3131,7 +3437,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical. Page: 20. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 20. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 20,
     "chunk_idx": "date",
@@ -3139,7 +3445,7 @@
     "is_date": true,
     "raw_date": "Fiscal Year 2023",
     "normalized": null,
-    "confidence": 1.0,
+    "confidence": 0.95,
     "ambiguous": false,
     "flagged": false
   },
@@ -3165,7 +3471,7 @@
     "is_date": true,
     "raw_date": "FY23",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -3178,12 +3484,12 @@
     "is_date": true,
     "raw_date": "20250821",
     "normalized": "2025-08-21",
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 21. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical. Page: 21. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 21,
     "chunk_idx": "date",
@@ -3191,25 +3497,38 @@
     "is_date": true,
     "raw_date": "Fiscal Year 2023",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 2020. Normalized: 2020-01-01. Context: The 2020 Coronavirus Aid, Relief, and Economic Security (CARES). Page: 21. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: 2020. Normalized: 2020. Context: The 2020 Coronavirus Aid, Relief, and Economic Security. Page: 21. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 21,
     "chunk_idx": "date",
     "id": "OPQ_FY23RSPQ_20250821.pdf::date::2020::21",
     "is_date": true,
     "raw_date": "2020",
-    "normalized": "2020-01-01",
+    "normalized": "2020",
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: November 2-3, 2022. Normalized: 2022-11-02. Context: During the November 2-3, 2022 meeting of FDA's Pharmaceutical Science. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: 20250821. Normalized: 2025-08-21. Context: OPQ FY23RSPQ 20250821. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "doc": "OPQ_FY23RSPQ_20250821.pdf",
+    "page": 22,
+    "chunk_idx": "date",
+    "id": "OPQ_FY23RSPQ_20250821.pdf::date::20250821::22",
+    "is_date": true,
+    "raw_date": "20250821",
+    "normalized": "2025-08-21",
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: November 2-3, 2022. Normalized: 2022-11-02. Context: During the November 2-3, 2022 meeting of FDA's Pharmaceutical. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 22,
     "chunk_idx": "date",
@@ -3222,7 +3541,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 2023. Normalized: 2023. Context: Throughout 2023, CDER engaged with more than ten stakeholder groups. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: 2023. Normalized: 2023. Context: Throughout 2023, CDER engaged with more than ten stakeholder. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 22,
     "chunk_idx": "date",
@@ -3235,7 +3554,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: September 15-December 14, 2023. Normalized: 2023-09-15. Context: established a public docket (September 15-December 14, 2023) that received. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: September 15-December 14, 2023. Normalized: 2023-09-15. Context: and established a public docket (September 15-December 14,. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 22,
     "chunk_idx": "date",
@@ -3248,7 +3567,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: FY2021-2022. Normalized: N/A. Context: lessons learned from two FY2021-2022 QMM pilots, CDER developed. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: FY2021-2022. Normalized: N/A. Context: Leveraging the lessons learned from two FY2021-2022 QMM pilots. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 22,
     "chunk_idx": "date",
@@ -3256,12 +3575,12 @@
     "is_date": true,
     "raw_date": "FY2021-2022",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: August 2023. Normalized: 2023-08. Context: protocol, which was described in an August 2023 white paper. In January. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: August 2023. Normalized: 2023-08. Context: which was described in an August 2023 white paper. In January. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 22,
     "chunk_idx": "date",
@@ -3274,7 +3593,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: January 2024. Normalized: 2024-01. Context: white paper. In January 2024, CDER announced the voluntary Quality. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: January 2024. Normalized: 2024-01. Context: white paper. In January 2024, CDER announced the voluntary. Page: 22. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 22,
     "chunk_idx": "date",
@@ -3295,7 +3614,7 @@
     "is_date": true,
     "raw_date": "FY23",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -3308,12 +3627,12 @@
     "is_date": true,
     "raw_date": "FY23",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical. Page: 23. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 23. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 23,
     "chunk_idx": "date",
@@ -3347,7 +3666,7 @@
     "is_date": true,
     "raw_date": "FY23",
     "normalized": null,
-    "confidence": 0.9,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -3360,12 +3679,12 @@
     "is_date": true,
     "raw_date": "20250821",
     "normalized": "2025-08-21",
-    "confidence": 0.95,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical. Page: 24. Document: OPQ_FY23RSPQ_20250821.pdf.",
+    "text": "Date found: Fiscal Year 2023. Normalized: N/A. Context: Fiscal Year 2023 Report on the State of Pharmaceutical Quality. Page: 24. Document: OPQ_FY23RSPQ_20250821.pdf.",
     "doc": "OPQ_FY23RSPQ_20250821.pdf",
     "page": 24,
     "chunk_idx": "date",
@@ -3373,7 +3692,7 @@
     "is_date": true,
     "raw_date": "Fiscal Year 2023",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
@@ -3497,7 +3816,7 @@
     "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::p12::c0"
   },
   {
-    "text": "Date found: August 2003. Normalized: 2003-08. Context: Office of Regulatory Affairs (ORA) August 2003 Pharmaceutical CGMPs. Page: 1. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: August 2003. Normalized: 2003-08. Context: Office of Regulatory Affairs (ORA)\n\nAugust 2003\nPharmaceutical CGMPs. Page: 1. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 1,
     "chunk_idx": "date",
@@ -3505,25 +3824,25 @@
     "is_date": true,
     "raw_date": "August 2003",
     "normalized": "2003-08",
-    "confidence": 0.9,
+    "confidence": 0.95,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: August 2003. Normalized: 2003-08-01. Context: Pharmaceutical CGMPs August 2003. Page: 2. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: August  2003. Normalized: 2003-08. Context: Office of Regulatory Affairs (ORA)  August  2003  Pharmaceutical CGMPs. Page: 2. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 2,
     "chunk_idx": "date",
-    "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::August 2003::2",
+    "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::August  2003::2",
     "is_date": true,
-    "raw_date": "August 2003",
-    "normalized": "2003-08-01",
+    "raw_date": "August  2003",
+    "normalized": "2003-08",
     "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: August 20, 1997. Normalized: 1997-08-20. Context: operational before August 20, 1997, the effective date of. Page: 5. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: August 20, 1997. Normalized: 1997-08-20. Context: operational before August 20, 1997, the effective date of part 11. Page: 5. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 5,
     "chunk_idx": "date",
@@ -3536,7 +3855,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: February 4, 2003. Normalized: 2003-02-04. Context: In the Federal Register of February 4, 2003 (68 FR 5645), we announced. Page: 6. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: February 4, 2003. Normalized: 2003-02-04. Context: In the Federal Register of February 4, 2003 (68 FR 5645). Page: 6. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 6,
     "chunk_idx": "date",
@@ -3562,93 +3881,93 @@
     "flagged": false
   },
   {
-    "text": "Date found: 1995. Normalized: 1995. Context: FDA 1995) (http://www.fda.gov/ora/inspect_ref/igs/gloss.html). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: 1995. Normalized: N/A. Context: Computerized System and Software Development Terminology (Division of Field Investigations, Office of Regional Operations, Office of Regulatory Affairs, FDA 1995). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 12,
     "chunk_idx": "date",
     "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::1995::12",
     "is_date": true,
     "raw_date": "1995",
-    "normalized": "1995",
-    "confidence": 0.7,
+    "normalized": null,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 2002. Normalized: 2002. Context: Research, 2002) (http://www.fda.gov/cdrh/comp/guidance/938.html). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: 2002. Normalized: N/A. Context: General Principles of Software Validation; Final Guidance for Industry and FDA Staff (FDA, Center for Devices and Radiological Health, Center for Biologics Evaluation and Research, 2002). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 12,
     "chunk_idx": "date",
     "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::2002::12",
     "is_date": true,
     "raw_date": "2002",
-    "normalized": "2002",
-    "confidence": 0.7,
+    "normalized": null,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 1999. Normalized: 1999. Context: Radiological Health, 1999) (http://www.fda.gov/cdrh/ode/guidance/585.html). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: 1999. Normalized: N/A. Context: Guidance for Industry, FDA Reviewers, and Compliance on Off-The-Shelf Software Use in Medical Devices (FDA, Center for Devices and Radiological Health, 1999). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 12,
     "chunk_idx": "date",
     "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::1999::12",
     "is_date": true,
     "raw_date": "1999",
-    "normalized": "1999",
-    "confidence": 0.7,
+    "normalized": null,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 2002. Normalized: 2002. Context: Regulation Incorporating an Integrated Quality Systems Approach (FDA 2002). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: 2002. Normalized: N/A. Context: Pharmaceutical CGMPs for the 21st Century: A Risk-Based Approach; A Science and Risk-Based Approach to Product Quality Regulation Incorporating an Integrated Quality Systems Approach (FDA 2002). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 12,
     "chunk_idx": "date",
     "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::2002::12",
     "is_date": true,
     "raw_date": "2002",
-    "normalized": "2002",
-    "confidence": 0.7,
+    "normalized": null,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 2001. Normalized: 2001. Context: Automated Systems, GAMP 4 (ISPE/GAMP Forum, 2001) (http://www.ispe.org/gamp/). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: 2001. Normalized: N/A. Context: The Good Automated Manufacturing Practice (GAMP) Guide for Validation of Automated Systems, GAMP 4 (ISPE/GAMP Forum, 2001). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 12,
     "chunk_idx": "date",
     "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::2001::12",
     "is_date": true,
     "raw_date": "2001",
-    "normalized": "2001",
-    "confidence": 0.7,
+    "normalized": null,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 2000. Normalized: 2000. Context: ISO/IEC 17799:2000 (BS 7799:2000) Information technology \u2013 Code of practice. Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: 17799:2000. Normalized: N/A. Context: ISO/IEC 17799:2000 (BS 7799:2000) Information technology \u2013 Code of practice for information security management (ISO/IEC, 2000). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 12,
     "chunk_idx": "date",
-    "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::2000::12",
+    "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::17799:2000::12",
     "is_date": true,
-    "raw_date": "2000",
-    "normalized": "2000",
+    "raw_date": "17799:2000",
+    "normalized": null,
     "confidence": 0.8,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 2000. Normalized: 2000. Context: technology \u2013 Code of practice for information security management (ISO/IEC, 2000). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
+    "text": "Date found: 2000. Normalized: N/A. Context: ISO/IEC 17799:2000 (BS 7799:2000) Information technology \u2013 Code of practice for information security management (ISO/IEC, 2000). Page: 12. Document: Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf.",
     "doc": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf",
     "page": 12,
     "chunk_idx": "date",
     "id": "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf::date::2000::12",
     "is_date": true,
     "raw_date": "2000",
-    "normalized": "2000",
-    "confidence": 0.7,
+    "normalized": null,
+    "confidence": 0.9,
     "ambiguous": false,
     "flagged": false
   },
@@ -3674,7 +3993,7 @@
     "id": "sample-sdf-document.pdf::p3::c0"
   },
   {
-    "text": "Date found: 3 June, 2022. Normalized: 2022-06-03. Context: Cytiva 100 Results Way Marlborough, MA 01752 United States Page 1 / 1 cytiva.com 3 June, 2022. Page: 1. Document: sample-sdf-document.pdf.",
+    "text": "Date found: 3 June, 2022. Normalized: 2022-06-03. Context: Cytiva address block, dated 3 June, 2022. Page: 1. Document: sample-sdf-document.pdf.",
     "doc": "sample-sdf-document.pdf",
     "page": 1,
     "chunk_idx": "date",
@@ -3823,6 +4142,19 @@
     "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::p11::c0"
   },
   {
+    "text": "Date found: 3/26..... 5/5/98. Normalized: N/A. Context: PERIOD OF INSPECTION C. F. NUMBER To: Mr. Joseph A. Errigo 3/26..... 5/5/98. Page: 1. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
+    "page": 1,
+    "chunk_idx": "date",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::3/26..... 5/5/98::1",
+    "is_date": true,
+    "raw_date": "3/26..... 5/5/98",
+    "normalized": null,
+    "confidence": 0.9,
+    "ambiguous": true,
+    "flagged": true
+  },
+  {
     "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION C. F. NUMBER To: Mr. Joseph A. Errigo 3/26..... 5/5/98. Page: 1. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 1,
@@ -3831,9 +4163,9 @@
     "is_date": true,
     "raw_date": "3/26",
     "normalized": "1998-03-26",
-    "confidence": 0.7,
-    "ambiguous": true,
-    "flagged": true
+    "confidence": 0.85,
+    "ambiguous": false,
+    "flagged": false
   },
   {
     "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION C. F. NUMBER To: Mr. Joseph A. Errigo 3/26..... 5/5/98. Page: 1. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
@@ -3845,11 +4177,11 @@
     "raw_date": "5/5/98",
     "normalized": "1998-05-05",
     "confidence": 0.9,
-    "ambiguous": true,
-    "flagged": true
+    "ambiguous": false,
+    "flagged": false
   },
   {
-    "text": "Date found: 4/3/97. Normalized: 1997-04-03. Context: Manufacturing records show that on 4/3/97 agfjkg batch of Pellet \"Anti-Static\". Page: 1. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 4/3/97. Normalized: 1997-04-03. Context: records show that on 4/3/97 agjjkg batch of Pellet \"Anti-Static\". Page: 1. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 1,
     "chunk_idx": "date",
@@ -3858,37 +4190,50 @@
     "raw_date": "4/3/97",
     "normalized": "1997-04-03",
     "confidence": 0.9,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 3/26.....5/5/98. Normalized: N/A. Context: PERIOD OF INSPECTION 3/26.....5/5/98. Page: 2. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
+    "page": 2,
+    "chunk_idx": "date",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::3/26.....5/5/98::2",
+    "is_date": true,
+    "raw_date": "3/26.....5/5/98",
+    "normalized": null,
+    "confidence": 0.85,
     "ambiguous": true,
     "flagged": true
   },
   {
-    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION C. F. NUMBER To: Mr. Joseph A. Errigo 3/26.....5/5/98. Page: 2. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 03-26. Normalized: 1998-03-26. Context: FDA-483--inspection-03-26---05-05-1998. Page: 2. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 2,
     "chunk_idx": "date",
-    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::3/26::2",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::03-26::2",
     "is_date": true,
-    "raw_date": "3/26",
+    "raw_date": "03-26",
     "normalized": "1998-03-26",
-    "confidence": 0.8,
+    "confidence": 0.9,
     "ambiguous": true,
     "flagged": true
   },
   {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION C. F. NUMBER To: Mr. Joseph A. Errigo 3/26.....5/5/98. Page: 2. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 05-05-1998. Normalized: 1998-05-05. Context: FDA-483--inspection-03-26---05-05-1998. Page: 2. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 2,
     "chunk_idx": "date",
-    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::5/5/98::2",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::05-05-1998::2",
     "is_date": true,
-    "raw_date": "5/5/98",
+    "raw_date": "05-05-1998",
     "normalized": "1998-05-05",
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 18 month. Normalized: N/A. Context: handwritten data for the 18 month test interval showing failure. Page: 2. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 18 month. Normalized: N/A. Context: the 18 month test interval showing failure. Page: 2. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 2,
     "chunk_idx": "date",
@@ -3896,12 +4241,12 @@
     "is_date": true,
     "raw_date": "18 month",
     "normalized": null,
-    "confidence": 0.9,
+    "confidence": 0.95,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION 3/26..... 5/5/98. Page: 3. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION C. F. NUMBER\nTo: Mr. Joseph A. Errigo 3/26..... 5/5/98. Page: 3. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 3,
     "chunk_idx": "date",
@@ -3914,7 +4259,7 @@
     "flagged": true
   },
   {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION 3/26..... 5/5/98. Page: 3. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION C. F. NUMBER\nTo: Mr. Joseph A. Errigo 3/26..... 5/5/98. Page: 3. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 3,
     "chunk_idx": "date",
@@ -3922,12 +4267,12 @@
     "is_date": true,
     "raw_date": "5/5/98",
     "normalized": "1998-05-05",
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
+    "confidence": 0.9,
+    "ambiguous": true,
+    "flagged": true
   },
   {
-    "text": "Date found: 1994. Normalized: 1994. Context: The firm has not conducted any annual product reviews since 1994.. Page: 3. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 1994. Normalized: 1994. Context: ('The firm has not conducted any annual product reviews since 1994.. Page: 3. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 3,
     "chunk_idx": "date",
@@ -3935,12 +4280,12 @@
     "is_date": true,
     "raw_date": "1994",
     "normalized": "1994",
-    "confidence": 0.9,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION 3/26..... 5/5/98. Page: 4. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION C. F. NUMBER To: Mr. Joseph A. Errigo 3/26..... 5/5/98. Page: 4. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 4,
     "chunk_idx": "date",
@@ -3953,7 +4298,7 @@
     "flagged": true
   },
   {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION 3/26..... 5/5/98. Page: 4. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION C. F. NUMBER To: Mr. Joseph A. Errigo 3/26..... 5/5/98. Page: 4. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 4,
     "chunk_idx": "date",
@@ -3966,7 +4311,20 @@
     "flagged": false
   },
   {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: To: Mr. Joseph A. Errigo 5/5/98 2431898. Page: 5. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 03-26---05-05-1998. Normalized: N/A. Context: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998. Page: 4. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
+    "page": 4,
+    "chunk_idx": "date",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::03-26---05-05-1998::4",
+    "is_date": true,
+    "raw_date": "03-26---05-05-1998",
+    "normalized": null,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION To: Mr. Joseph A. Errigo 5/5/98. Page: 5. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 5,
     "chunk_idx": "date",
@@ -3974,9 +4332,9 @@
     "is_date": true,
     "raw_date": "5/5/98",
     "normalized": "1998-05-05",
-    "confidence": 1.0,
-    "ambiguous": false,
-    "flagged": false
+    "confidence": 0.9,
+    "ambiguous": true,
+    "flagged": true
   },
   {
     "text": "Date found: 5/85. Normalized: N/A. Context: FORM FDA 483 (5/85). Page: 5. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
@@ -3987,12 +4345,12 @@
     "is_date": true,
     "raw_date": "5/85",
     "normalized": null,
-    "confidence": 1.0,
+    "confidence": 0.85,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION    C. F. NUMBER\nTo: Mr. Joseph A. Errigo 5/5/98 2431898. Page: 6. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION C. F. NUMBER To: Mr. Joseph A. Errigo 5/5/98 2431898. Page: 6. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 6,
     "chunk_idx": "date",
@@ -4013,12 +4371,12 @@
     "is_date": true,
     "raw_date": "4 months",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 3/26.....5/5/98. Normalized: N/A. Context: PERIOD OF INSPECTION 3/26.....5/5/98 2431898. Page: 7. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 3/26.....5/5/98. Normalized: N/A. Context: PERIOD OF INSPECTION C. F. NUMBER\nTo: Mr. Joseph A. Errigo 3/26.....5/5/98 2431898. Page: 7. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 7,
     "chunk_idx": "date",
@@ -4026,12 +4384,12 @@
     "is_date": true,
     "raw_date": "3/26.....5/5/98",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 0.9,
     "ambiguous": true,
     "flagged": true
   },
   {
-    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION 3/26.....5/5/98 2431898. Page: 7. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION C. F. NUMBER\nTo: Mr. Joseph A. Errigo 3/26.....5/5/98 2431898. Page: 7. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 7,
     "chunk_idx": "date",
@@ -4039,12 +4397,12 @@
     "is_date": true,
     "raw_date": "3/26",
     "normalized": "1998-03-26",
-    "confidence": 0.9,
+    "confidence": 0.85,
     "ambiguous": true,
     "flagged": true
   },
   {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION 3/26.....5/5/98 2431898. Page: 7. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION C. F. NUMBER\nTo: Mr. Joseph A. Errigo 3/26.....5/5/98 2431898. Page: 7. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 7,
     "chunk_idx": "date",
@@ -4057,7 +4415,7 @@
     "flagged": true
   },
   {
-    "text": "Date found: 3/30/98. Normalized: 1998-03-30. Context: milling of Papaverine HCl stock pellets lot C043J on 3/30/98.. Page: 7. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 3/30/98. Normalized: 1998-03-30. Context: Papaverine HCl stock pellets lot C043J on 3/30/98. However, the batch record. Page: 7. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 7,
     "chunk_idx": "date",
@@ -4070,7 +4428,7 @@
     "flagged": true
   },
   {
-    "text": "Date found: 3/26.....5/5/98. Normalized: N/A. Context: PERIOD OF INSPECTION. Page: 8. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 3/26.....5/5/98. Normalized: N/A. Context: PERIOD OF INSPECTION    C. F. NUMBER To: Mr. Joseph A. Errigo 3/26.....5/5/98 2431898. Page: 8. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 8,
     "chunk_idx": "date",
@@ -4078,12 +4436,12 @@
     "is_date": true,
     "raw_date": "3/26.....5/5/98",
     "normalized": null,
-    "confidence": 0.95,
+    "confidence": 0.9,
     "ambiguous": true,
     "flagged": true
   },
   {
-    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION 3/26.....5/5/98. Page: 8. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION    C. F. NUMBER To: Mr. Joseph A. Errigo 3/26.....5/5/98 2431898. Page: 8. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 8,
     "chunk_idx": "date",
@@ -4096,37 +4454,11 @@
     "flagged": true
   },
   {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION 3/26.....5/5/98. Page: 8. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION    C. F. NUMBER To: Mr. Joseph A. Errigo 3/26.....5/5/98 2431898. Page: 8. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 8,
     "chunk_idx": "date",
     "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::5/5/98::8",
-    "is_date": true,
-    "raw_date": "5/5/98",
-    "normalized": "1998-05-05",
-    "confidence": 0.85,
-    "ambiguous": true,
-    "flagged": true
-  },
-  {
-    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION: 3/26..... 5/5/98. Page: 9. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
-    "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
-    "page": 9,
-    "chunk_idx": "date",
-    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::3/26::9",
-    "is_date": true,
-    "raw_date": "3/26",
-    "normalized": "1998-03-26",
-    "confidence": 0.7,
-    "ambiguous": true,
-    "flagged": true
-  },
-  {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION: 3/26..... 5/5/98. Page: 9. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
-    "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
-    "page": 9,
-    "chunk_idx": "date",
-    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::5/5/98::9",
     "is_date": true,
     "raw_date": "5/5/98",
     "normalized": "1998-05-05",
@@ -4135,7 +4467,33 @@
     "flagged": false
   },
   {
-    "text": "Date found: 03-26---05-05-1998. Normalized: 1998-03-26. Context: FDA-483--inspection-03-26---05-05-1998--(11-pages). Page: 9. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 3/26. Normalized: N/A. Context: PERIOD OF INSPECTION 3/26..... 5/5/98. Page: 9. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
+    "page": 9,
+    "chunk_idx": "date",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::3/26::9",
+    "is_date": true,
+    "raw_date": "3/26",
+    "normalized": null,
+    "confidence": 0.7,
+    "ambiguous": true,
+    "flagged": true
+  },
+  {
+    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION 3/26..... 5/5/98. Page: 9. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
+    "page": 9,
+    "chunk_idx": "date",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::5/5/98::9",
+    "is_date": true,
+    "raw_date": "5/5/98",
+    "normalized": "1998-05-05",
+    "confidence": 0.85,
+    "ambiguous": true,
+    "flagged": true
+  },
+  {
+    "text": "Date found: 03-26---05-05-1998. Normalized: 1998-03-26. Context: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998. Page: 9. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 9,
     "chunk_idx": "date",
@@ -4148,33 +4506,46 @@
     "flagged": false
   },
   {
-    "text": "Date found: 3/26 5/5/98. Normalized: N/A. Context: PERIOD OF INSPECTION 3/26 5/5/98 2431898. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 05-05-1998. Normalized: 1998-05-05. Context: FDA-483--inspection-03-26---05-05-1998--(11-pages). Page: 9. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
-    "page": 10,
+    "page": 9,
     "chunk_idx": "date",
-    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::3/26 5/5/98::10",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::05-05-1998::9",
     "is_date": true,
-    "raw_date": "3/26 5/5/98",
-    "normalized": null,
-    "confidence": 0.95,
-    "ambiguous": true,
+    "raw_date": "05-05-1998",
+    "normalized": "1998-05-05",
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 9805/5. Normalized: 1998-05-05. Context: Lab notebook 9805/5 shows failing results for CPM. Page: 9. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
+    "page": 9,
+    "chunk_idx": "date",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::9805/5::9",
+    "is_date": true,
+    "raw_date": "9805/5",
+    "normalized": "1998-05-05",
+    "confidence": 0.6,
+    "ambiguous": false,
     "flagged": true
   },
   {
-    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION 3/26 5/5/98. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 03-26 - 05-05-1998. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION 3/26 5/5/98. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 10,
     "chunk_idx": "date",
-    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::3/26::10",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::03-26 - 05-05-1998::10",
     "is_date": true,
-    "raw_date": "3/26",
+    "raw_date": "03-26 - 05-05-1998",
     "normalized": "1998-03-26",
-    "confidence": 0.9,
-    "ambiguous": true,
-    "flagged": true
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
   },
   {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION 3/26 5/5/98 2431898. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION 3/26 5/5/98. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 10,
     "chunk_idx": "date",
@@ -4187,7 +4558,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 10/21/97. Normalized: 1997-10-21. Context: from current to as of 10/21/97) as per Master. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 10/21/97. Normalized: 1997-10-21. Context: ingredient (from current to as of 10/21/97) as per Master Formula. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 10,
     "chunk_idx": "date",
@@ -4200,7 +4571,7 @@
     "flagged": false
   },
   {
-    "text": "Date found: 9/26/95. Normalized: 1995-09-26. Context: applied as 9/26/95 as per Master Formula revision. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 9/26/95. Normalized: 1995-09-26. Context: to be applied as 9/26/95 as per Master Formula revision. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 10,
     "chunk_idx": "date",
@@ -4213,20 +4584,20 @@
     "flagged": false
   },
   {
-    "text": "Date found: 1990. Normalized: 1990-01-01. Context: 20. In 1990, large plastic HDPE bins called \"Mules\". Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 1990. Normalized: 1990. Context: In 1990, large plastic HDPE bins called \"Mules\" were introduced. Page: 10. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 10,
     "chunk_idx": "date",
     "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::1990::10",
     "is_date": true,
     "raw_date": "1990",
-    "normalized": "1990-01-01",
+    "normalized": "1990",
     "confidence": 1.0,
     "ambiguous": false,
     "flagged": false
   },
   {
-    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION C. F. NUMBER 3/26..... 5/5/98. Page: 11. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 3/26. Normalized: 1998-03-26. Context: PERIOD OF INSPECTION C. F. NUMBER\n3/26..... 5/5/98. Page: 11. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 11,
     "chunk_idx": "date",
@@ -4234,12 +4605,12 @@
     "is_date": true,
     "raw_date": "3/26",
     "normalized": "1998-03-26",
-    "confidence": 0.85,
+    "confidence": 0.7,
     "ambiguous": true,
     "flagged": true
   },
   {
-    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: PERIOD OF INSPECTION C. F. NUMBER 3/26..... 5/5/98. Page: 11. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "text": "Date found: 5/5/98. Normalized: 1998-05-05. Context: 3/26..... 5/5/98 2431898. Page: 11. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
     "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
     "page": 11,
     "chunk_idx": "date",
@@ -4247,8 +4618,21 @@
     "is_date": true,
     "raw_date": "5/5/98",
     "normalized": "1998-05-05",
-    "confidence": 0.9,
-    "ambiguous": true,
+    "confidence": 1.0,
+    "ambiguous": false,
+    "flagged": false
+  },
+  {
+    "text": "Date found: 89K043H. Normalized: N/A. Context: Ferrous Sulfate E/C Green Tablets lot 89K043H, xveturned by Em. Page: 11. Document: Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf.",
+    "doc": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf",
+    "page": 11,
+    "chunk_idx": "date",
+    "id": "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf::date::89K043H::11",
+    "is_date": true,
+    "raw_date": "89K043H",
+    "normalized": null,
+    "confidence": 0.1,
+    "ambiguous": false,
     "flagged": true
   }
 ]

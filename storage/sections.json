@@ -17,7 +17,7 @@
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 2,
+      "end_page": 1,
       "confidence": 0.95
     },
     {
@@ -27,50 +27,62 @@
       "confidence": 0.9
     },
     {
-      "section_type": "Regulatory Filing",
+      "section_type": "Guidance Document - Introduction and Background",
+      "start_page": 1,
+      "end_page": 2,
+      "confidence": 0.92
+    },
+    {
+      "section_type": "Guidance Document - Technical Standards",
       "start_page": 2,
       "end_page": 7,
-      "confidence": 0.92
+      "confidence": 0.88
     }
   ],
   "DSCSA Pilot Project - Final Report.pdf": [
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 53,
+      "end_page": 18,
       "confidence": 0.95
     },
     {
-      "section_type": "Test Report",
-      "start_page": 5,
-      "end_page": 32,
-      "confidence": 0.9
-    },
-    {
       "section_type": "Audit Report",
-      "start_page": 16,
+      "start_page": 5,
       "end_page": 18,
       "confidence": 0.85
+    },
+    {
+      "section_type": "Test Report",
+      "start_page": 25,
+      "end_page": 53,
+      "confidence": 0.9
     }
   ],
   "importation-guidance.pdf": [
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 3,
+      "end_page": 2,
       "confidence": 0.95
     },
     {
-      "section_type": "Guidance Document",
+      "section_type": "Version Update Notice",
       "start_page": 1,
-      "end_page": 18,
-      "confidence": 0.92
+      "end_page": 1,
+      "confidence": 0.85
+    },
+    {
+      "section_type": "Quality Agreement",
+      "start_page": 3,
+      "end_page": 10,
+      "confidence": 0.8
     },
     {
       "section_type": "Dear Healthcare Provider Letter",
       "start_page": 10,
       "end_page": 18,
-      "confidence": 0.88
+      "confidence": 0.9
     }
   ],
   "OPQ_FY23RSPQ_20250821.pdf": [
@@ -101,16 +113,28 @@
       "confidence": 0.95
     },
     {
-      "section_type": "Regulatory Guidance",
-      "start_page": 2,
-      "end_page": 9,
+      "section_type": "Guidance Document",
+      "start_page": 1,
+      "end_page": 2,
       "confidence": 0.9
     },
     {
-      "section_type": "References",
-      "start_page": 10,
-      "end_page": 12,
+      "section_type": "Introduction and Background",
+      "start_page": 1,
+      "end_page": 3,
       "confidence": 0.85
+    },
+    {
+      "section_type": "Technical Requirements and Discussion",
+      "start_page": 3,
+      "end_page": 8,
+      "confidence": 0.88
+    },
+    {
+      "section_type": "References",
+      "start_page": 9,
+      "end_page": 12,
+      "confidence": 0.92
     }
   ],
   "sample-sdf-document.pdf": [
@@ -123,39 +147,47 @@
     {
       "section_type": "Certificate of Compliance",
       "start_page": 1,
-      "end_page": 1,
+      "end_page": 2,
       "confidence": 0.98
     },
     {
       "section_type": "Test Report",
       "start_page": 2,
-      "end_page": 2,
-      "confidence": 0.97
-    },
-    {
-      "section_type": "Certificate of Compliance",
-      "start_page": 3,
       "end_page": 3,
-      "confidence": 0.98
+      "confidence": 0.97
     }
   ],
   "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf": [
     {
+      "section_type": "FDA Inspection Report (Form 483)",
+      "start_page": 1,
+      "end_page": 11,
+      "confidence": 0.98
+    },
+    {
       "section_type": "Audit Report",
       "start_page": 1,
       "end_page": 11,
-      "confidence": 0.95
-    },
+      "confidence": 0.92
+    }
+  ],
+  "FDA-2019-P-3266-0004_attachment_12.pdf": [
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 11,
-      "confidence": 0.92
+      "end_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "Version Update Notice",
+      "start_page": 1,
+      "end_page": 2,
+      "confidence": 0.9
     },
     {
       "section_type": "Test Report",
-      "start_page": 1,
-      "end_page": 11,
+      "start_page": 4,
+      "end_page": 6,
       "confidence": 0.85
     }
   ]
