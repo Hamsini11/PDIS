@@ -4,43 +4,74 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "core"))
-from core.vector_store import search, get_all_dates, list_documents
-from pipeline import run_compliance_scan, extract_text_from_pdf
-from core.supabase_client import new_session_id, save_message, load_chat_history
+
 import os
-from supabase import create_client, Client, ClientOptions
-import pandas as pd
-import tempfile
 import uuid
 import requests
+import pandas as pd
+import tempfile
 
-url = os.environ.get("SUPABASE_URL")
-key = os.environ.get("SUPABASE_ANON_KEY")
+from vector_store import search, get_all_dates, list_documents
+from pipeline import run_compliance_scan, extract_text_from_pdf
+from supabase_client import new_session_id, save_message, load_chat_history
+
 BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:8000")
 
-supabase: Client = create_client(
-    url, key,
-    options=ClientOptions(postgrest_client_timeout=10)
-)
-
-# ─── PAGE CONFIG ──────────────────────────────────────────────
+# ─── PAGE CONFIG (must be first Streamlit call) ───────────────
 st.set_page_config(
     page_title="PDIS — Pfizer Document Intelligence",
     page_icon="💊",
     layout="wide"
 )
 
-# ─── SESSION INIT ─────────────────────────────────────────────
-if "user_id" not in st.session_state:
-    st.session_state.user_id = str(uuid.uuid4())
-    st.session_state.session_id = new_session_id()
+# ─── SESSION INIT (before auth gate) ─────────────────────────
+if "messages" not in st.session_state:
     st.session_state.messages = []
+if "session_id" not in st.session_state:
+    st.session_state.session_id = new_session_id()
+
+# ─── OAUTH CALLBACK HANDLER ───────────────────────────────────
+params = st.query_params
+if "state" in params and "access_token" not in st.session_state:
+    state = params["state"]
+    response = requests.get(f"{BACKEND_URL}/auth/token?state={state}")
+    if response.status_code == 200:
+        token_data = response.json()
+        st.session_state.access_token = token_data["access_token"]
+        st.session_state.user_id = token_data["user_id"]
+        st.session_state.session_id = token_data["session_id"]
+        st.session_state.user_email = token_data["email"]
+        st.session_state.user_name = token_data.get("display_name", "")
+        st.query_params.clear()
+        st.rerun()
+
+# ─── AUTH GATE ────────────────────────────────────────────────
+if "access_token" not in st.session_state:
+    st.title("🔐 PDIS — Secure Login")
+    st.write("Sign in with your Microsoft SSO account.")
+    if st.button("Sign in with Microsoft"):
+        state = str(uuid.uuid4())
+        st.session_state.pending_state = state
+        login_url = f"{BACKEND_URL}/auth/login?state={state}"
+        st.markdown(f"[Click here to sign in]({login_url})")
+    st.stop()
 
 # ─── SIDEBAR ──────────────────────────────────────────────────
 with st.sidebar:
-    st.title("💊 PDIS")
-    st.caption("Pharmaceutical Document Intelligence System")
-    st.divider()
+
+    with st.sidebar:
+        st.subheader("My Profile")
+        user_email = st.session_state.get('user_email', 'User')
+        display_name = st.session_state.get('user_name', '')
+        
+        st.markdown(f"**👤 {display_name}**" if display_name else user_email.split("@")[0])
+        if st.button("Sign out", help="Click to logout"):
+            for key in ["access_token", "user_id",
+                    "session_id", "user_email", 
+                    "user_name", "messages"]:
+                st.session_state.pop(key, None)
+            st.rerun()
+        st.divider()
 
     st.subheader("📂 Upload Document")
     uploaded = st.file_uploader("Upload a PDF", type=["pdf"])
@@ -134,7 +165,31 @@ with st.sidebar:
             st.session_state["comparison_result"] = result
 
 # ─── MAIN CHAT UI ─────────────────────────────────────────────
-st.title("💬 Ask your documents")
+# st.title("💊 PDIS")
+# st.caption("Pharmaceutical Document Intelligence System")
+# st.divider()
+st.markdown("""
+<style>
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #0e1117;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+</style>
+<div class="fixed-header">
+    <h2>💊 PDIS</h2>
+    <p style="color: gray; font-size: 0.8rem;">
+    Pharmaceutical Document Intelligence System
+    </p>
+</div>
+""", unsafe_allow_html=True)
+st.subheader("💬 Ask your documents")
 st.caption("Powered by Claude Sonnet · FAISS vector search · Pfizer PDIS")
 
 for msg in st.session_state.messages:

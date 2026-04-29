@@ -20,8 +20,8 @@ AZURE_TENANT_ID     = os.environ.get("AZURE_TENANT_ID", "common")
 REDIRECT_URI        = os.environ.get("REDIRECT_URI",
                                       "http://localhost:8000/auth/callback")
 
-AUTHORITY = f"https://login.microsoftonline.com/{AZURE_TENANT_ID}"
-SCOPES    = ["openid", "email", "profile", "User.Read"]
+AUTHORITY = f"https://login.microsoftonline.com/consumers"
+SCOPES    = ["User.Read"]
 
 security = HTTPBearer(auto_error=False)
 
