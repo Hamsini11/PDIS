@@ -8,7 +8,7 @@ python-jose
 python-multipart
 slowapi
 faiss-cpu
-fastembed
+fastembed==0.2.7
 pytesseract
 pymupdf
 pandas
