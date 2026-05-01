@@ -3,7 +3,7 @@ import json
 import faiss
 import numpy as np
 from pathlib import Path
-from sentence_transformers import SentenceTransformer
+from fastembed import TextEmbedding
 from anthropic import Anthropic
 
 # ─── CONFIG ──────────────────────────────────────────────────
@@ -15,7 +15,7 @@ META_FILE   = STORE_DIR / "chunks.json"
 STORE_DIR.mkdir(exist_ok=True)
 
 # ─── INIT ─────────────────────────────────────────────────────
-embedder = SentenceTransformer(EMBED_MODEL)
+embedder = TextEmbedding("BAAI/bge-small-en-v1.5")
 DIM = 384  # all-MiniLM-L6-v2 output dimension
 _hyde_client = Anthropic()
 
@@ -107,8 +107,7 @@ def index_document(page_texts, dates: list, filename, sections: list = None):
     # embed
     texts = [c["text"] for c in new_chunks]
     print(f"  Embedding {len(texts)} chunks...")
-    vectors = embedder.encode(texts, show_progress_bar=False,
-                              batch_size=32, convert_to_numpy=True)
+    vectors = np.array(list(embedder.embed(texts))).astype(np.float32)
     vectors = vectors.astype(np.float32)
 
     index.add(vectors)
@@ -148,7 +147,7 @@ def search(query: str, top_k: int = 5,
     search_text = generate_hypothetical_answer(query) if use_hyde else query
     print(f"  HyDE query: {search_text[:80]}...")
     
-    q_vec = embedder.encode([search_text], convert_to_numpy=True).astype(np.float32)
+    q_vec = np.array(list(embedder.embed([search_text]))).astype(np.float32)
 
     if filter_doc:
         candidates = index.ntotal

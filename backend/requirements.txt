@@ -8,7 +8,7 @@ python-jose
 python-multipart
 slowapi
 faiss-cpu
-sentence-transformers
+fastembed
 pytesseract
 pymupdf
 pandas

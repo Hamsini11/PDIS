@@ -3,7 +3,7 @@
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 9,
+      "end_page": 2,
       "confidence": 0.95
     },
     {
@@ -17,54 +17,60 @@
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 1,
+      "end_page": 7,
       "confidence": 0.95
     },
     {
       "section_type": "Version Update Notice",
       "start_page": 1,
       "end_page": 1,
-      "confidence": 0.9
+      "confidence": 0.85
     },
     {
-      "section_type": "Guidance Document - Introduction and Background",
+      "section_type": "Guidance Documentation",
       "start_page": 1,
-      "end_page": 2,
-      "confidence": 0.92
-    },
-    {
-      "section_type": "Guidance Document - Technical Standards",
-      "start_page": 2,
       "end_page": 7,
-      "confidence": 0.88
+      "confidence": 0.9
     }
   ],
   "DSCSA Pilot Project - Final Report.pdf": [
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 18,
+      "end_page": 5,
       "confidence": 0.95
     },
     {
-      "section_type": "Audit Report",
-      "start_page": 5,
+      "section_type": "Test Report",
+      "start_page": 6,
       "end_page": 18,
+      "confidence": 0.9
+    },
+    {
+      "section_type": "Audit Report",
+      "start_page": 19,
+      "end_page": 25,
       "confidence": 0.85
     },
     {
       "section_type": "Test Report",
       "start_page": 25,
       "end_page": 53,
-      "confidence": 0.9
+      "confidence": 0.92
     }
   ],
   "importation-guidance.pdf": [
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 2,
+      "end_page": 3,
       "confidence": 0.95
+    },
+    {
+      "section_type": "Guidance Document",
+      "start_page": 1,
+      "end_page": 18,
+      "confidence": 0.92
     },
     {
       "section_type": "Version Update Notice",
@@ -73,16 +79,10 @@
       "confidence": 0.85
     },
     {
-      "section_type": "Quality Agreement",
-      "start_page": 3,
-      "end_page": 10,
-      "confidence": 0.8
-    },
-    {
       "section_type": "Dear Healthcare Provider Letter",
       "start_page": 10,
       "end_page": 18,
-      "confidence": 0.9
+      "confidence": 0.88
     }
   ],
   "OPQ_FY23RSPQ_20250821.pdf": [
@@ -99,33 +99,39 @@
       "confidence": 0.92
     },
     {
-      "section_type": "Audit Report",
+      "section_type": "Government Compliance Document",
       "start_page": 1,
       "end_page": 24,
-      "confidence": 0.85
+      "confidence": 0.88
     }
   ],
   "Part-11--Electronic-Records--Electronic-Signatures---Scope-and-Application-(PDF).pdf": [
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 1,
+      "end_page": 2,
       "confidence": 0.95
     },
     {
-      "section_type": "Guidance Document",
+      "section_type": "Regulatory Guidance Document",
       "start_page": 1,
-      "end_page": 2,
-      "confidence": 0.9
+      "end_page": 12,
+      "confidence": 0.92
+    },
+    {
+      "section_type": "Table of Contents",
+      "start_page": 1,
+      "end_page": 1,
+      "confidence": 0.98
     },
     {
       "section_type": "Introduction and Background",
-      "start_page": 1,
+      "start_page": 2,
       "end_page": 3,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "section_type": "Technical Requirements and Discussion",
+      "section_type": "Technical Discussion",
       "start_page": 3,
       "end_page": 8,
       "confidence": 0.88
@@ -134,7 +140,7 @@
       "section_type": "References",
       "start_page": 9,
       "end_page": 12,
-      "confidence": 0.92
+      "confidence": 0.93
     }
   ],
   "sample-sdf-document.pdf": [
@@ -154,18 +160,24 @@
       "section_type": "Test Report",
       "start_page": 2,
       "end_page": 3,
-      "confidence": 0.97
+      "confidence": 0.92
     }
   ],
   "Time-Cap-Labs--Inc.--Farmingdale--NY--FDA-483--inspection-03-26---05-05-1998--(11-pages).pdf": [
     {
-      "section_type": "FDA Inspection Report (Form 483)",
+      "section_type": "Audit Report",
+      "start_page": 1,
+      "end_page": 11,
+      "confidence": 0.95
+    },
+    {
+      "section_type": "FDA 483 Inspection Report",
       "start_page": 1,
       "end_page": 11,
       "confidence": 0.98
     },
     {
-      "section_type": "Audit Report",
+      "section_type": "Regulatory Filing",
       "start_page": 1,
       "end_page": 11,
       "confidence": 0.92
@@ -175,20 +187,20 @@
     {
       "section_type": "Regulatory Filing",
       "start_page": 1,
-      "end_page": 3,
+      "end_page": 2,
       "confidence": 0.95
     },
     {
       "section_type": "Version Update Notice",
       "start_page": 1,
       "end_page": 2,
-      "confidence": 0.9
+      "confidence": 0.92
     },
     {
       "section_type": "Test Report",
-      "start_page": 4,
+      "start_page": 3,
       "end_page": 6,
-      "confidence": 0.85
+      "confidence": 0.88
     }
   ]
 }
