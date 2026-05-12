@@ -42,7 +42,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:8501",
                    "http://localhost:8502",
-                   "https://pdis-pfizer.streamlit.app"],
+                   "https://pfizer-pdis.streamlit.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
