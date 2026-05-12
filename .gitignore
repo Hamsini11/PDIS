@@ -3,8 +3,8 @@
 venv/
 
 # Storage (generated files)
-storage/faiss.index
-storage/chunks.json
+# storage/faiss.index
+# storage/chunks.json
 
 # Pfizer documents (confidential)
 data/sample_docs/
