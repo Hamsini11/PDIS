@@ -8,6 +8,7 @@ from slowapi import Limiter
 from slowapi.util import get_remote_address
 import logging
 import time
+import os
 
 # ─── RATE LIMITER ────────────────────────────────────────────
 # Prevents token stuffing and abuse
@@ -16,6 +17,7 @@ limiter = Limiter(key_func=get_remote_address)
 # ─── AUDIT LOGGER ────────────────────────────────────────────
 # Every API call logged for 21 CFR Part 11 compliance
 audit_logger = logging.getLogger("pdis.audit")
+os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
     filename="logs/audit.log",
     level=logging.INFO,

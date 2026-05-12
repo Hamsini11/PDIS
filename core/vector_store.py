@@ -79,11 +79,15 @@ def index_document(page_texts, dates: list, filename, sections: list = None):
 
     # 2. also index each date as its own searchable chunk
     for d in dates:
+        raw = d["raw"]
+        normalized = d["normalized"] or "N/A"
+        context = d["context"]
+        page = d["page"]
         date_text = (
-            f"Date found: {d["raw"]}. "
-            f"Normalized: {d["normalized"] or 'N/A'}. "
-            f"Context: {d["context"]}. "
-            f"Page: {d["page"]}. "
+            f"Date found: {raw}. "
+            f"Normalized: {normalized}. "
+            f"Context: {context}. "
+            f"Page: {page}. "
             f"Document: {filename}."
         )
         new_chunks.append({
@@ -91,7 +95,7 @@ def index_document(page_texts, dates: list, filename, sections: list = None):
             "doc":       filename,
             "page":      d["page"],
             "chunk_idx": "date",
-            "id":        f"{filename}::date::{d["raw"]}::{d["page"]}",
+            "id":        f"{filename}::date::{raw}::{page}",
             "is_date":   True,
             "raw_date":  d["raw"],
             "normalized": d["normalized"],
