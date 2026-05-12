@@ -48,6 +48,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+STREAMLIT_URL = os.environ.get("STREAMLIT_URL", "http://localhost:8502")
+
 # Audit logging middleware
 app.middleware("http")(audit_middleware)
 
@@ -93,7 +95,7 @@ async def auth_callback(code: str, state: str = ""):
     }
     
     # Redirect back to Streamlit
-    return RedirectResponse(url=f"http://localhost:8502?state={state}")
+    return RedirectResponse(url=f"{STREAMLIT_URL}?state={state}")
 
 @app.get("/auth/logout")
 async def logout():
